@@ -1,0 +1,4372 @@
+<mod.xml>
+	<info>
+		<String name="version" value="22.12.22.14.31" />
+	</info>
+	<events>
+		<event name="Play_AddPremium">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Куплен премиум" />
+				<String name="externalId" value="SAddPremium" />
+			</acceptedType>
+		</event>
+		<event name="Play_Battle_End">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук конца боя" />
+				<String name="externalId" value="SBattle_End" />
+			</acceptedType>
+		</event>
+		<event name="Play_BuyConsumable">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Покупка расходников" />
+				<String name="externalId" value="SBuyConsumable" />
+			</acceptedType>
+		</event>
+		<event name="Play_BuyShip">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Куплен кораблик" />
+				<String name="externalId" value="SBuyShip" />
+			</acceptedType>
+		</event>
+		<event name="Play_ChatSend">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Отправка в чат" />
+				<String name="externalId" value="SChatSend" />
+			</acceptedType>
+		</event>
+		<event name="Play_Confirm">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук подтверждения" />
+				<String name="externalId" value="SConfirm" />
+			</acceptedType>
+		</event>
+		<event name="Play_ConfirmYesNo">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук подтверждения пользовательского выбора" />
+				<String name="externalId" value="SConfirmYesNo" />
+			</acceptedType>
+		</event>
+		<event name="Play_Damage_Death">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf мой корабль уничтожили" />
+				<String name="externalId" value="VDamage_Death" />
+			</acceptedType>
+		</event>
+		<event name="Play_demobilization">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Демобилизация командира" />
+				<String name="externalId" value="Sdemobilization" />
+			</acceptedType>
+		</event>
+		<event name="Play_EliteShip">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Элитный отец" />
+				<String name="externalId" value="SEliteShip" />
+			</acceptedType>
+		</event>
+		<event name="Play_Escape">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Whoosh на открытие меню" />
+				<String name="externalId" value="SEscape" />
+			</acceptedType>
+		</event>
+		<event name="Play_Exchange">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Денюжки сыпятся" />
+				<String name="externalId" value="SExchange" />
+			</acceptedType>
+		</event>
+		<event name="Play_ExchangeWindow">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления окна менеджера ресурсов" />
+				<String name="externalId" value="SExchangeWindow" />
+			</acceptedType>
+		</event>
+		<event name="Play_ExploreShip">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Изучен корабль" />
+				<String name="externalId" value="SExploreShip" />
+			</acceptedType>
+		</event>
+		<event name="Play_GIFTBOX">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Гифтбокс" />
+				<String name="externalId" value="SGIFTBOX" />
+			</acceptedType>
+		</event>
+		<event name="Play_Hard_Click">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Самый тяжелый клик в мире" />
+				<String name="externalId" value="SHard_Click" />
+			</acceptedType>
+		</event>
+		<event name="Play_inform_rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Информер ранговых боев" />
+				<String name="externalId" value="Sinform_rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_new_rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук получения нового ранга" />
+				<String name="externalId" value="Snew_rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_OpenDossier">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Открыть досье" />
+				<String name="externalId" value="SOpenDossier" />
+			</acceptedType>
+		</event>
+		<event name="Play_PopUpReport">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Уведомление" />
+				<String name="externalId" value="SPopUpReport" />
+			</acceptedType>
+		</event>
+		<event name="Play_PortLoaded">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Порт прогрузился, ура" />
+				<String name="externalId" value="SPortLoaded" />
+			</acceptedType>
+		</event>
+		<event name="Play_PremiumWindowShown">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления окна покупки премиума" />
+				<String name="externalId" value="SPremiumWindowShown" />
+			</acceptedType>
+		</event>
+		<event name="Play_PVE_Operation_Complete">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Пве операция завершена" />
+				<String name="externalId" value="SPVE_Operation_Complete" />
+			</acceptedType>
+		</event>
+		<event name="Play_PVE_Season_Complete">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Сезон завершен" />
+				<String name="externalId" value="SPVE_Season_Complete" />
+			</acceptedType>
+		</event>
+		<event name="Play_QuestWindowShown">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления боевых задач" />
+				<String name="externalId" value="SQuestWindowShown" />
+			</acceptedType>
+		</event>
+		<event name="Play_rank_star">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Получение звезды" />
+				<String name="externalId" value="Srank_star" />
+			</acceptedType>
+		</event>
+		<event name="Play_rank_star_lost">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звезда потеряна" />
+				<String name="externalId" value="Srank_star_lost" />
+			</acceptedType>
+		</event>
+		<event name="Play_recruitment">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Найм командира" />
+				<String name="externalId" value="Srecruitment" />
+			</acceptedType>
+		</event>
+		<event name="Play_season_rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Сезон открыт" />
+				<String name="externalId" value="Sseason_rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_SelectBattleType">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SSelectBattleType" />
+			</acceptedType>
+		</event>
+		<event name="Play_SendReserve">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Отправить в резерв" />
+				<String name="externalId" value="SSendReserve" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Horn">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Гудок" />
+				<String name="externalId" value="SShip_Horn" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_AirSupport_Shot">
+			<String name="externalid" value="vship_weapon_airsupport_shot" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Взлет произвел" />
+				<String name="externalId" value="VShip_Weapon_AirSupport_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_L_1_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_L_1_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_L_2_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_L_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_L_3_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_L_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_L_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_L_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_M_1_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_M_1_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_M_2_Shot">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Главный калибр" />
+				<String name="externalId" value="SShip_Weapon_MG_M_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_M_3_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_M_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_M_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_M_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_S_1_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_S_1_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_S_2_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_S_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_S_3_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_S_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_S_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_S_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XL_2_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XL_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XL_3_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XL_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XL_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XL_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XS_1_Shot">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Главный калибр" />
+				<String name="externalId" value="SShip_Weapon_MG_XS_1_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XS_2_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XS_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XS_3_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XS_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XS_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XS_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XXL_1_Shot">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Главный калибр" />
+				<String name="externalId" value="SShip_Weapon_MG_XXL_1_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XXL_2_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XXL_2_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XXL_3_Shot">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Главный калибр" />
+				<String name="externalId" value="SShip_Weapon_MG_XXL_3_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_Ship_Weapon_MG_XXL_4_Shot">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SShip_Weapon_MG_XXL_4_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_ShipLoaded">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Корабль прогрузился, ура" />
+				<String name="externalId" value="SShipLoaded" />
+			</acceptedType>
+		</event>
+		<event name="Play_Start_Battle">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Бой начинается!" />
+				<String name="externalId" value="VStart_Battle" />
+			</acceptedType>
+		</event>
+		<event name="Play_StartQuest">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук начала кампании" />
+				<String name="externalId" value="SStartQuest" />
+			</acceptedType>
+		</event>
+		<event name="Play_Submarine_Dive_Limit">
+			<acceptedType name="Voice">
+				<String name="externalId" value="VSubmarine_Dive_Limit" />
+			</acceptedType>
+		</event>
+		<event name="Play_Success">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Установка галочки" />
+				<String name="externalId" value="SSuccess" />
+			</acceptedType>
+		</event>
+		<event name="Play_training">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Тренировка командира" />
+				<String name="externalId" value="Straining" />
+			</acceptedType>
+		</event>
+		<event name="Play_Type">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук печатания на клавишах" />
+				<String name="externalId" value="SType" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Add_Premium">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Куплен премиум" />
+				<String name="externalId" value="SUI_Add_Premium" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Capture">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Сирена захвата базы" />
+				<String name="externalId" value="LUI_Alarm_Capture" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Collision">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Сигнал опасности столкновения" />
+				<String name="externalId" value="LUI_Alarm_Collision" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Defective_Modules">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о поломках модулей" />
+				<String name="externalId" value="VUI_Alarm_Defective_Modules" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Map_Border">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Предупреждение о выходе за край карты" />
+				<String name="externalId" value="LUI_Alarm_Map_Border" />
+			</acceptedType>
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf синяя линия!" />
+				<String name="externalId" value="VUI_Alarm_Map_Border" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Mine">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Сигнал о минах" />
+				<String name="externalId" value="LUI_Alarm_Mine" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Torpedo">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Сигнал о торпедах" />
+				<String name="externalId" value="LUI_Alarm_Torpedo" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Alarm_Weather_Changed">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Синоптики предупреждают" />
+				<String name="externalId" value="SUI_Alarm_Weather_Changed" />
+			</acceptedType>
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf синоптики предсказывают смену погоды" />
+				<String name="externalId" value="VUI_Alarm_Weather_Changed" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Battle_Type_Click">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Клик для выбора типа боя" />
+				<String name="externalId" value="SUI_Battle_Type_Click" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Buy_Consumable">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Покупка расходников" />
+				<String name="externalId" value="SUI_Buy_Consumable" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Buy_Ship">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Куплен кораблик" />
+				<String name="externalId" value="SUI_Buy_Ship" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Demobilization">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Демобилизация командира" />
+				<String name="externalId" value="SUI_Captains_Demobilization" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Open_Dossier">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Открыть досье" />
+				<String name="externalId" value="SUI_Captains_Open_Dossier" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Recruitment">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Найм командира" />
+				<String name="externalId" value="SUI_Captains_Recruitment" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Send_Reserve">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Отправить в резерв" />
+				<String name="externalId" value="SUI_Captains_Send_Reserve" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Setup">
+			<acceptedType name="SFX">
+				<String name="externalId" value="SUI_Captains_Setup" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Captains_Training">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Тренировка командира" />
+				<String name="externalId" value="SUI_Captains_Training" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chat_Receive">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Письмо в чат" />
+				<String name="externalId" value="SUI_Chat_Receive" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chat_Send">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Отправка в чат" />
+				<String name="externalId" value="SUI_Chat_Send" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Buy">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук крана" />
+				<String name="externalId" value="SUI_Chests_Buy" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Epic_Lose">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Очень плохой контейнер" />
+				<String name="externalId" value="SUI_Chests_Epic_Lose" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Epic_Win">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Очень хороший контейнер" />
+				<String name="externalId" value="SUI_Chests_Epic_Win" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Open_Epic">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Контейнер открывается" />
+				<String name="externalId" value="SUI_Chests_Open_Epic" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Platform_Close">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Платформа закрывается" />
+				<String name="externalId" value="SUI_Chests_Platform_Close" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Platform_Close_With_Chest">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Платформа поглощает контейнер" />
+				<String name="externalId" value="SUI_Chests_Platform_Close_With_Chest" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Platform_Open">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Платформа открывается" />
+				<String name="externalId" value="SUI_Chests_Platform_Open" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Roll">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Рандомизация награды контейнера" />
+				<String name="externalId" value="SUI_Chests_Roll" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Whoosh_01">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Whoosh" />
+				<String name="externalId" value="SUI_Chests_Whoosh_01" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Chests_Whoosh_02">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Whoosh" />
+				<String name="externalId" value="SUI_Chests_Whoosh_02" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Click">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Click" />
+				<String name="externalId" value="SUI_Click" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Confirm">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Ui confirmation sound" />
+				<String name="externalId" value="SUI_Confirm" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Confirm_Yes_No">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Ui confirmation window (yes/no)" />
+				<String name="externalId" value="SUI_Confirm_Yes_No" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Consumable">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о начале действия расходников" />
+				<String name="externalId" value="VUI_Consumable" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Consumable_End">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение об окончании действия расходников" />
+				<String name="externalId" value="VUI_Consumable_End" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Consumable_Hydroacoustics_Loop">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Маркер работы расходника" />
+				<String name="externalId" value="LUI_Consumable_Hydroacoustics_Loop" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Consumable_Interrupted">
+			<String name="readableru" value="Сообщения о прерывании работы расходника" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о статусе эскадрильи" />
+				<String name="externalId" value="VUI_Consumable_Interrupted" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Consumable_Radio_Detection_Loop">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Маркер работы расходника" />
+				<String name="externalId" value="LUI_Consumable_Radio_Detection_Loop" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Elite_Ship">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Элитный отец" />
+				<String name="externalId" value="SUI_Elite_Ship" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Escape">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Whoosh на открытие меню" />
+				<String name="externalId" value="SUI_Escape" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Exchange">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="$$$sound" />
+				<String name="externalId" value="SUI_Exchange" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Exchange_Window">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления окна менеджера ресурсов" />
+				<String name="externalId" value="SUI_Exchange_Window" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Explore_Ship">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Изучен корабль" />
+				<String name="externalId" value="SUI_Explore_Ship" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Giftbox">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Гифтбокс" />
+				<String name="externalId" value="SUI_Giftbox" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Hard_Click">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Hard click" />
+				<String name="externalId" value="SUI_Hard_Click" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Hits">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук попаданий" />
+				<String name="externalId" value="SUI_Hits" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Inform_Rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Информер ранговых боев" />
+				<String name="externalId" value="SUI_Inform_Rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Invite_Squad">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Приглашение в отряд" />
+				<String name="externalId" value="SUI_Invite_Squad" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Level_Up">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Левелап" />
+				<String name="externalId" value="SUI_Level_Up" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_List">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Раскрытие списка" />
+				<String name="externalId" value="SUI_List" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Lock_Weapon">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf  цель захвачена" />
+				<String name="externalId" value="VUI_Lock_Weapon" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_New_Rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук получения нового ранга" />
+				<String name="externalId" value="SUI_New_Rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Over">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Over" />
+				<String name="externalId" value="SUI_Over" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Over_Carousel">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Оверы по карусели" />
+				<String name="externalId" value="SUI_Over_Carousel" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Over_Tabs">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Оверы по табам" />
+				<String name="externalId" value="SUI_Over_Tabs" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Plane_Land_Click">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук прибытия самолётов на палубу" />
+				<String name="externalId" value="SUI_Plane_Land_Click" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Pop_Up_Report">
+			<acceptedType name="SFX">
+				<String name="readableuni" value="Pop-up sound" />
+				<String name="externalId" value="SUI_Pop_Up_Report" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Port_Loaded">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Порт прогрузился, ура" />
+				<String name="externalId" value="SUI_Port_Loaded" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Premium_Window_Shown">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления окна покупки премиума" />
+				<String name="externalId" value="SUI_Premium_Window_Shown" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PreparingEnd">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Окончание подготовки самолётов" />
+				<String name="externalId" value="SUI_PreparingEnd" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Complete_Main_Task">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Завершение основной задачи пве" />
+				<String name="externalId" value="SUI_PVE_Complete_Main_Task" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Complete_Task">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Завершение задачи pve" />
+				<String name="externalId" value="SUI_PVE_Complete_Task" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Escort">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Эскорт начал движение pve" />
+				<String name="externalId" value="SUI_PVE_Escort" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Received_Main_Task">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Получение основной задачи pve" />
+				<String name="externalId" value="SUI_PVE_Received_Main_Task" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Received_Task">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Получение задачи pve" />
+				<String name="externalId" value="SUI_PVE_Received_Task" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_PVE_Task_Faled">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Провал задачи pve" />
+				<String name="externalId" value="SUI_PVE_Task_Faled" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Quest_Window_Shown">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук появления боевых задач" />
+				<String name="externalId" value="SUI_Quest_Window_Shown" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Rank_Star">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Получение звезды" />
+				<String name="externalId" value="SUI_Rank_Star" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Rank_Star_Lost">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звезда потеряна" />
+				<String name="externalId" value="SUI_Rank_Star_Lost" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Reload_Air_Support">
+			<String name="externalid" value="vui_reload_air_support" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Жду приказов" />
+				<String name="externalId" value="VUI_Reload_Air_Support" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Reload_MG">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Перезарядка торпедного аппарата" />
+				<String name="externalId" value="SUI_Reload_MG" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Reload_TA">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Перезарядка торпедного аппарата" />
+				<String name="externalId" value="SUI_Reload_TA" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Result_Stinger">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf мы проиграли" />
+				<String name="externalId" value="VUI_Result_Stinger" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Season_Rank">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Сезон открыт" />
+				<String name="externalId" value="SUI_Season_Rank" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Select_Battle_Type">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Выбор туториала" />
+				<String name="externalId" value="SUI_Select_Battle_Type" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Ship_Loaded">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Корабль прогрузился, ура" />
+				<String name="externalId" value="SUI_Ship_Loaded" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Start_Quest">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук начала кампании" />
+				<String name="externalId" value="SUI_Start_Quest" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Submarine_Alarm_Energy_Danger">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о состоянии батареи" />
+				<String name="externalId" value="VUI_Submarine_Alarm_Energy_Danger" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Submarine_Detected">
+			<acceptedType name="Voice">
+				<String name="externalId" value="VUI_Submarine_Detected" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Submarine_Energy_Full">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о состоянии батареи" />
+				<String name="externalId" value="VUI_Submarine_Energy_Full" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Submarine_Energy_Over">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о состоянии батареи" />
+				<String name="externalId" value="VUI_Submarine_Energy_Over" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_Accept_Invitation">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Приглашение принято" />
+				<String name="externalId" value="SUI_Team_Accept_Invitation" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_Invite">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Приглашение получено" />
+				<String name="externalId" value="SUI_Team_Invite" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_League_Down">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Лига понижена" />
+				<String name="externalId" value="SUI_Team_League_Down" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_League_Up">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Лига повышена" />
+				<String name="externalId" value="SUI_Team_League_Up" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_Voting_Exp">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Голосование" />
+				<String name="externalId" value="SUI_Team_Voting_Exp" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_Voting_Exp_Leader">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Голосование лидера" />
+				<String name="externalId" value="SUI_Team_Voting_Exp_Leader" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Team_Voting_Invite">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Приглашение голосовать" />
+				<String name="externalId" value="SUI_Team_Voting_Invite" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Telegraph">
+			<acceptedType name="Voice">
+				<String name="readableru" value="Телеграф" />
+				<String name="externalId" value="VUI_Telegraph" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Type">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Звук печатания на клавишах" />
+				<String name="externalId" value="SUI_Type" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Upgrade_Ship">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Апгрейд кораблей" />
+				<String name="externalId" value="SUI_Upgrade_Ship" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Voice_Chat_Command">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Маркер включения войсчата" />
+				<String name="externalId" value="SUI_Voice_Chat_Command" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Voice_Chat_Player">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Маркер включения войсчата игроком" />
+				<String name="externalId" value="SUI_Voice_Chat_Player" />
+			</acceptedType>
+		</event>
+		<event name="Play_UI_Waiting_Sound">
+			<acceptedType name="Loop">
+				<String name="readableuni" value="Loading loop" />
+				<String name="externalId" value="LUI_Waiting_Sound" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Autopilot">
+			<String name="externalid" value="vautopilot" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение автопилота" />
+				<String name="externalId" value="VVO_Autopilot" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Detection_Enemy">
+			<String name="externalid" value="vdetectionenemy" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение об обнаружении" />
+				<String name="externalId" value="VVO_Detection_Enemy" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Domination_Points_Capture">
+			<String name="externalid" value="svo_domination_points_capture" />
+			<acceptedType name="SFX">
+				<String name="readableru" value="Захват точки союзниками" />
+				<String name="externalId" value="SVO_Domination_Points_Capture" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Domination_Points_Capture_Enemy">
+			<String name="externalid" value="svo_domination_points_capture_enemy" />
+			<acceptedType name="SFX">
+				<String name="readableru" value="Захват точки врагами" />
+				<String name="externalId" value="SVO_Domination_Points_Capture_Enemy" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Domination_Status">
+			<String name="externalid" value="vdominationstatus" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о преимуществе и близости к победе" />
+				<String name="externalId" value="VVO_Domination_Status" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_DoubleKill">
+			<String name="externalid" value="vdoublekill" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Двойной удар!" />
+				<String name="externalId" value="VVO_DoubleKill" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Fire_Alarm">
+			<String name="externalid" value="vfirealarm" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Пожарная тревога!" />
+				<String name="externalId" value="VVO_Fire_Alarm" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_FirstKill">
+			<String name="externalid" value="vfirstkill" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Первая кровь!" />
+				<String name="externalId" value="VVO_FirstKill" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Frags">
+			<String name="externalid" value="vfrag" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о фраге" />
+				<String name="externalId" value="VVO_Frags" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Friendly_Hit">
+			<String name="externalid" value="vfriendlyhit" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Огонь по своим!" />
+				<String name="externalId" value="VVO_Friendly_Hit" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Highschool_Fleet_Capture_Fort">
+			<String name="externalid" value="vhsfcapturefort" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf захват форта" />
+				<String name="externalId" value="VVO_Highschool_Fleet_Capture_Fort" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Highschool_Fleet_MG_Shot">
+			<String name="externalid" value="vhsfmgshot" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf огонь!" />
+				<String name="externalId" value="VVO_Highschool_Fleet_MG_Shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Highschool_Fleet_TA_shot">
+			<String name="externalid" value="vhsftashot" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf пускаю торпеды!" />
+				<String name="externalId" value="VVO_Highschool_Fleet_TA_shot" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Highschool_Fleet_Torpedo_Hit">
+			<String name="externalid" value="vhsftahit" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Hsf в нас попала торпеда!" />
+				<String name="externalId" value="VVO_Highschool_Fleet_Torpedo_Hit" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Hit_Feedback_Good_Hit">
+			<String name="externalid" value="vgoodhit" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="В яблочко!" />
+				<String name="externalId" value="VVO_Hit_Feedback_Good_Hit" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Last_Hope">
+			<String name="externalid" value="vlasthope" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Вы - последняя надежда команды" />
+				<String name="externalId" value="VVO_Last_Hope" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Pilots_Status">
+			<String name="externalid" value="vpilotsstatus" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о статусе эскадрильи" />
+				<String name="externalId" value="VVO_Pilots_Status" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Priority_Target">
+			<String name="externalid" value="vprioritytarget" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Атаковать указанную цель" />
+				<String name="externalId" value="VVO_Priority_Target" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Prompt">
+			<String name="externalid" value="vprompt" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Подсказки в порту" />
+				<String name="externalId" value="VVO_Prompt" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_PVE_Message">
+			<String name="externalid" value="vpvemessage" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Все пве сообщения" />
+				<String name="externalId" value="VVO_PVE_Message" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Quick_Commands">
+			<String name="externalid" value="vquickcommands" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Быстрая команда- отправка сообщения" />
+				<String name="externalId" value="VVO_Quick_Commands" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Quick_Commands_Receive">
+			<String name="externalid" value="vquickcommandsreceive" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Быстрая команда- получение сообщения" />
+				<String name="externalId" value="VVO_Quick_Commands_Receive" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Ship_Alarms_Torpedo_Danger">
+			<String name="externalid" value="vtorpedoalarm" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Сообщение о торпедной угрозе" />
+				<String name="externalId" value="VVO_Ship_Alarms_Torpedo_Danger" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Ship_Avatar_Flooding">
+			<String name="externalid" value="vavatarflooding" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Критические затопления" />
+				<String name="externalId" value="VVO_Ship_Avatar_Flooding" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Teamkill_Punishment">
+			<String name="externalid" value="vteamkillpunishment" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="Дисциплинарное взыскание за огонь по своим" />
+				<String name="externalId" value="VVO_Teamkill_Punishment" />
+			</acceptedType>
+		</event>
+		<event name="Play_VO_Timer_5">
+			<String name="externalid" value="vtimer5" />
+			<acceptedType name="Voice">
+				<String name="readableru" value="До конца боя осталось 5 минут" />
+				<String name="externalId" value="VVO_Timer_5" />
+			</acceptedType>
+		</event>
+		<event name="Play_WaitingSound">
+			<acceptedType name="Loop">
+				<String name="readableru" value="Звук загрузки и крутящегося колесика" />
+				<String name="externalId" value="LWaitingSound" />
+			</acceptedType>
+		</event>
+		<event name="Play_WorkoutShip">
+			<acceptedType name="SFX">
+				<String name="readableru" value="Апгрейд кораблей" />
+				<String name="externalId" value="SWorkoutShip" />
+			</acceptedType>
+		</event>
+	</events>
+	<states>
+		<state name="Battle_Status_Result">
+			<String name="readableru" value="Результат боя" />
+			<String name="readableen" value="Battle result" />
+			<String name="readableuni" value="Battle result" />
+			<String name="descriptionru" value="Управляет выбором звука результата боя" />
+			<String name="descriptionen" value="Allows you to control the battle result sounds" />
+			<references>
+				<event name="Play_UI_Result_Stinger" />
+			</references>
+			<values>
+				<value name="Battle_Status_Result_Draw">
+					<String name="readableru" value="Ничья" />
+					<String name="readableen" value="Draw" />
+				</value>
+				<value name="Battle_Status_Result_Lose">
+					<String name="readableru" value="Поражение" />
+					<String name="readableen" value="Defeat" />
+				</value>
+				<value name="Battle_Status_Result_Win">
+					<String name="readableru" value="Выигрыш" />
+					<String name="readableen" value="Victory" />
+				</value>
+			</values>
+		</state>
+		<state name="Camera_Water_Level">
+			<String name="readableru" value="Расположение камеры относительно ватерлинии" />
+			<String name="readableen" value="Camera water level" />
+			<references />
+			<values>
+				<value name="Camera_Water_Level_Above">
+					<String name="readableru" value="Надводная" />
+					<String name="readableen" value="Above water line" />
+				</value>
+				<value name="Camera_Water_Level_Under">
+					<String name="readableru" value="Подводная" />
+					<String name="readableen" value="Under water" />
+				</value>
+				<value name="None" />
+			</values>
+		</state>
+		<state name="CrewName">
+			<String name="readableuni" value="Crew Name" />
+			<values>
+				<value name="Adi_Guntur">
+					<String name="readableuni" value="Adi_Guntur" />
+				</value>
+				<value name="Akeno_Mashiro">
+					<String name="readableuni" value="Akeno_Mashiro" />
+				</value>
+				<value name="Anne_Bonny">
+					<String name="readableuni" value="Anne_Bonny" />
+				</value>
+				<value name="Aquaman_BDay22">
+					<String name="readableuni" value="Aquaman_BDay22" />
+				</value>
+				<value name="Arleigh_Burke">
+					<String name="readableuni" value="Arleigh_Burke" />
+				</value>
+				<value name="Ashigara">
+					<String name="readableuni" value="Ashigara" />
+				</value>
+				<value name="AshleyViolet">
+					<String name="readableuni" value="AshleyViolet" />
+				</value>
+				<value name="ASnowGiant2022">
+					<String name="readableuni" value="ASnowGiant2022" />
+				</value>
+				<value name="AUBOYNEAU">
+					<String name="readableuni" value="AUBOYNEAU" />
+				</value>
+				<value name="Auc1">
+					<String name="readableuni" value="Auc1" />
+				</value>
+				<value name="Auc2">
+					<String name="readableuni" value="Auc2" />
+				</value>
+				<value name="Auc3_Havelock">
+					<String name="readableuni" value="Auc3_Havelock" />
+				</value>
+				<value name="Aurelius_Darling_H2020">
+					<String name="readableuni" value="Aurelius_Darling_H2020" />
+				</value>
+				<value name="Azur_Atago">
+					<String name="readableuni" value="Azur_Atago" />
+				</value>
+				<value name="Azur_Aurora">
+					<String name="readableuni" value="Azur_Aurora" />
+				</value>
+				<value name="Azur_Azuma">
+					<String name="readableuni" value="Azur_Azuma" />
+				</value>
+				<value name="Azur_Baltimore">
+					<String name="readableuni" value="Azur_Baltimore" />
+				</value>
+				<value name="Azur_Belfast">
+					<String name="readableuni" value="Azur_Belfast" />
+				</value>
+				<value name="Azur_Bismarck">
+					<String name="readableuni" value="Azur_Bismarck" />
+				</value>
+				<value name="Azur_Chapayev">
+					<String name="readableuni" value="Azur_Chapayev" />
+				</value>
+				<value name="Azur_Cleveland">
+					<String name="readableuni" value="Azur_Cleveland" />
+				</value>
+				<value name="Azur_Dunkerque">
+					<String name="readableuni" value="Azur_Dunkerque" />
+				</value>
+				<value name="Azur_Enterprise">
+					<String name="readableuni" value="Azur_Enterprise" />
+				</value>
+				<value name="Azur_Formidable">
+					<String name="readableuni" value="Azur_Formidable" />
+				</value>
+				<value name="Azur_Hipper">
+					<String name="readableuni" value="Azur_Hipper" />
+				</value>
+				<value name="Azur_Hood">
+					<String name="readableuni" value="Azur_Hood" />
+				</value>
+				<value name="Azur_Itsen">
+					<String name="readableuni" value="Azur_Itsen" />
+				</value>
+				<value name="Azur_JeanBart">
+					<String name="readableuni" value="Azur_JeanBart" />
+				</value>
+				<value name="Azur_Kaga">
+					<String name="readableuni" value="Azur_Kaga" />
+				</value>
+				<value name="Azur_Littorio">
+					<String name="readableuni" value="Azur_Littorio" />
+				</value>
+				<value name="Azur_Montpelier">
+					<String name="readableuni" value="Azur_Montpelier" />
+				</value>
+				<value name="Azur_Nelson">
+					<String name="readableuni" value="Azur_Nelson" />
+				</value>
+				<value name="Azur_Neptune">
+					<String name="readableuni" value="Azur_Neptune" />
+				</value>
+				<value name="Azur_NewJersey">
+					<String name="readableuni" value="Azur_NewJersey" />
+				</value>
+				<value name="Azur_Prinz_Eugen">
+					<String name="readableuni" value="Azur_Prinz_Eugen" />
+				</value>
+				<value name="Azur_Roon">
+					<String name="readableuni" value="Azur_Roon" />
+				</value>
+				<value name="Azur_Shokaku">
+					<String name="readableuni" value="Azur_Shokaku" />
+				</value>
+				<value name="Azur_SovRussia">
+					<String name="readableuni" value="Azur_SovRussia" />
+				</value>
+				<value name="Azur_StLouis">
+					<String name="readableuni" value="Azur_StLouis" />
+				</value>
+				<value name="Azur_Yukikaze">
+					<String name="readableuni" value="Azur_Yukikaze" />
+				</value>
+				<value name="Azur_Zara">
+					<String name="readableuni" value="Azur_Zara" />
+				</value>
+				<value name="Bajie">
+					<String name="readableuni" value="Bajie" />
+				</value>
+				<value name="Boris_Razor_H18">
+					<String name="readableuni" value="Boris_Razor_H18" />
+				</value>
+				<value name="Boris_Razor_HW">
+					<String name="readableuni" value="Boris_Razor_HW" />
+				</value>
+				<value name="BRITISH_PVE">
+					<String name="readableuni" value="BRITISH_PVE" />
+				</value>
+				<value name="Bruno_Battaglia">
+					<String name="readableuni" value="Bruno_Battaglia" />
+				</value>
+				<value name="Bumblebee">
+					<String name="readableuni" value="Bumblebee" />
+				</value>
+				<value name="CAPT">
+					<String name="readableuni" value="CAPT" />
+				</value>
+				<value name="ChangeDual">
+					<String name="readableuni" value="ChangeDual" />
+				</value>
+				<value name="ChristophSchulz">
+					<String name="readableuni" value="ChristophSchulz" />
+				</value>
+				<value name="CNBANNY">
+					<String name="readableuni" value="CNBANNY" />
+				</value>
+				<value name="CNRABBIT">
+					<String name="readableuni" value="CNRABBIT" />
+				</value>
+				<value name="COM_WWII_SA">
+					<String name="readableuni" value="COM_WWII_SA" />
+				</value>
+				<value name="Commander_Akizuki_H2020">
+					<String name="readableuni" value="Commander_Akizuki_H2020" />
+				</value>
+				<value name="Commander_Alaska_H2019">
+					<String name="readableuni" value="Commander_Alaska_H2019" />
+				</value>
+				<value name="Commander_Amagi_H2020">
+					<String name="readableuni" value="Commander_Amagi_H2020" />
+				</value>
+				<value name="Commander_Berserk_H2020">
+					<String name="readableuni" value="Commander_Berserk_H2020" />
+				</value>
+				<value name="Commander_CrabBattleship_H2020">
+					<String name="readableuni" value="Commander_CrabBattleship_H2020" />
+				</value>
+				<value name="Commander_Daring_PA">
+					<String name="readableuni" value="Commander_Daring_PA" />
+				</value>
+				<value name="Commander_France_H2019">
+					<String name="readableuni" value="Commander_France_H2019" />
+				</value>
+				<value name="Commander_France_H2020">
+					<String name="readableuni" value="Commander_France_H2020" />
+				</value>
+				<value name="Commander_France_H2020">
+					<String name="readableuni" value="Commander_France_H2020" />
+				</value>
+				<value name="Commander_Gearing_H2019">
+					<String name="readableuni" value="Commander_Gearing_H2019" />
+				</value>
+				<value name="Commander_Gearing_PA">
+					<String name="readableuni" value="Commander_Gearing_PA" />
+				</value>
+				<value name="Commander_Grozovoy_PA">
+					<String name="readableuni" value="Commander_Grozovoy_PA" />
+				</value>
+				<value name="Commander_Harugumo_PA">
+					<String name="readableuni" value="Commander_Harugumo_PA" />
+				</value>
+				<value name="Commander_Henri_H2019">
+					<String name="readableuni" value="Commander_Henri_H2019" />
+				</value>
+				<value name="Commander_Hindenburg_H2019">
+					<String name="readableuni" value="Commander_Hindenburg_H2019" />
+				</value>
+				<value name="Commander_Hindenburg_H2020">
+					<String name="readableuni" value="Commander_Hindenburg_H2020" />
+				</value>
+				<value name="Commander_Hindenburg_H2020">
+					<String name="readableuni" value="Commander_Hindenburg_H2020" />
+				</value>
+				<value name="Commander_Hsiang_Yang_PA">
+					<String name="readableuni" value="Commander_Hsiang_Yang_PA" />
+				</value>
+				<value name="Commander_Khabarovsk_H2019">
+					<String name="readableuni" value="Commander_Khabarovsk_H2019" />
+				</value>
+				<value name="Commander_Khabarovsk_PA">
+					<String name="readableuni" value="Commander_Khabarovsk_PA" />
+				</value>
+				<value name="Commander_Kleber_PA">
+					<String name="readableuni" value="Commander_Kleber_PA" />
+				</value>
+				<value name="Commander_MonsterCruiser_H2020">
+					<String name="readableuni" value="Commander_MonsterCruiser_H2020" />
+				</value>
+				<value name="Commander_Montana_H2019">
+					<String name="readableuni" value="Commander_Montana_H2019" />
+				</value>
+				<value name="Commander_Oland_H2020">
+					<String name="readableuni" value="Commander_Oland_H2020" />
+				</value>
+				<value name="Commander_Shimakaze_H2019">
+					<String name="readableuni" value="Commander_Shimakaze_H2019" />
+				</value>
+				<value name="Commander_Shimakaze_PA">
+					<String name="readableuni" value="Commander_Shimakaze_PA" />
+				</value>
+				<value name="Commander_Smolensk_H2020">
+					<String name="readableuni" value="Commander_Smolensk_H2020" />
+				</value>
+				<value name="Commander_Smolensk_H2020">
+					<String name="readableuni" value="Commander_Smolensk_H2020" />
+				</value>
+				<value name="Commander_Yamato_H2019">
+					<String name="readableuni" value="Commander_Yamato_H2019" />
+				</value>
+				<value name="Commander_Z_52_PA">
+					<String name="readableuni" value="Commander_Z_52_PA" />
+				</value>
+				<value name="ComRichard">
+					<String name="readableuni" value="ComRichard" />
+				</value>
+				<value name="CUNNINGHAM">
+					<String name="readableuni" value="CUNNINGHAM" />
+				</value>
+				<value name="Da_Rong">
+					<String name="readableuni" value="Da_Rong" />
+				</value>
+				<value name="Dasha_EU">
+					<String name="readableuni" value="Dasha_EU" />
+				</value>
+				<value name="Dasha_FR">
+					<String name="readableuni" value="Dasha_FR" />
+				</value>
+				<value name="Dasha_GE">
+					<String name="readableuni" value="Dasha_GE" />
+				</value>
+				<value name="Dasha_IT">
+					<String name="readableuni" value="Dasha_IT" />
+				</value>
+				<value name="Dasha_JP">
+					<String name="readableuni" value="Dasha_JP" />
+				</value>
+				<value name="Dasha_NED">
+					<String name="readableuni" value="Dasha_NED" />
+				</value>
+				<value name="Dasha_PZ">
+					<String name="readableuni" value="Dasha_PZ" />
+				</value>
+				<value name="Dasha_RU">
+					<String name="readableuni" value="Dasha_RU" />
+				</value>
+				<value name="Dasha_UK">
+					<String name="readableuni" value="Dasha_UK" />
+				</value>
+				<value name="Dasha_US">
+					<String name="readableuni" value="Dasha_US" />
+				</value>
+				<value name="David_Jones_H18">
+					<String name="readableuni" value="David_Jones_H18" />
+				</value>
+				<value name="David_Jones_HW">
+					<String name="readableuni" value="David_Jones_HW" />
+				</value>
+				<value name="De_Jong">
+					<String name="readableuni" value="De_Jong" />
+				</value>
+				<value name="De_Ruyter">
+					<String name="readableuni" value="De_Ruyter" />
+				</value>
+				<value name="DIEHARD_CAP">
+					<String name="readableuni" value="DIEHARD_CAP" />
+				</value>
+				<value name="Doctor_Linebelly_H2020">
+					<String name="readableuni" value="Doctor_Linebelly_H2020" />
+				</value>
+				<value name="Domenico_Folgore">
+					<String name="readableuni" value="Domenico_Folgore" />
+				</value>
+				<value name="Dr_Frankenship_H18">
+					<String name="readableuni" value="Dr_Frankenship_H18" />
+				</value>
+				<value name="Dr_Frankenship_H18">
+					<String name="readableuni" value="Dr_Frankenship_H18" />
+				</value>
+				<value name="Dunk_Capn">
+					<String name="readableuni" value="Dunk_Capn" />
+				</value>
+				<value name="Dusty_Logh">
+					<String name="readableuni" value="Dusty_Logh" />
+				</value>
+				<value name="Eastern_dragon_king">
+					<String name="readableuni" value="Eastern_dragon_king" />
+				</value>
+				<value name="EliteTournament22">
+					<String name="readableuni" value="EliteTournament22" />
+				</value>
+				<value name="Feuerputz">
+					<String name="readableuni" value="Feuerputz" />
+				</value>
+				<value name="FRAN_WWII_SA">
+					<String name="readableuni" value="FRAN_WWII_SA" />
+				</value>
+				<value name="FRANCE_CAP">
+					<String name="readableuni" value="FRANCE_CAP" />
+				</value>
+				<value name="FRANCECAPPREM">
+					<String name="readableuni" value="FRANCECAPPREM" />
+				</value>
+				<value name="FRANCISCO_FERREIRA">
+					<String name="readableuni" value="FRANCISCO_FERREIRA" />
+				</value>
+				<value name="Frankenship">
+					<String name="readableuni" value="Frankenship" />
+				</value>
+				<value name="Frankenship">
+					<String name="readableuni" value="Frankenship" />
+				</value>
+				<value name="FRE_Golden_Konung">
+					<String name="readableuni" value="FRE_Golden_Konung" />
+				</value>
+				<value name="Frederica_Logh">
+					<String name="readableuni" value="Frederica_Logh" />
+				</value>
+				<value name="Fredrik_Henrik">
+					<String name="readableuni" value="Fredrik_Henrik" />
+				</value>
+				<value name="FRENCH_PVE">
+					<String name="readableuni" value="FRENCH_PVE" />
+				</value>
+				<value name="FRIEDRICHBONTE">
+					<String name="readableuni" value="FRIEDRICHBONTE" />
+				</value>
+				<value name="FSnowGiant2022">
+					<String name="readableuni" value="FSnowGiant2022" />
+				</value>
+				<value name="FUBUKI_SHIRAKAMI">
+					<String name="readableuni" value="FUBUKI_SHIRAKAMI" />
+				</value>
+				<value name="GER_LilFish_OG">
+					<String name="readableuni" value="GER_LilFish_OG" />
+				</value>
+				<value name="GER_Pete_Earthling">
+					<String name="readableuni" value="GER_Pete_Earthling" />
+				</value>
+				<value name="GERCAP">
+					<String name="readableuni" value="GERCAP" />
+				</value>
+				<value name="GERCAPPREM">
+					<String name="readableuni" value="GERCAPPREM" />
+				</value>
+				<value name="Gluhschwanz">
+					<String name="readableuni" value="Gluhschwanz" />
+				</value>
+				<value name="Godzilla">
+					<String name="readableuni" value="Godzilla" />
+				</value>
+				<value name="GReed">
+					<String name="readableuni" value="GReed" />
+				</value>
+				<value name="Gregory_Oldnick">
+					<String name="readableuni" value="Gregory_Oldnick" />
+				</value>
+				<value name="Gregory_Oldnick">
+					<String name="readableuni" value="Gregory_Oldnick" />
+				</value>
+				<value name="Grimlock">
+					<String name="readableuni" value="Grimlock" />
+				</value>
+				<value name="GRZEGORZ">
+					<String name="readableuni" value="GRZEGORZ" />
+				</value>
+				<value name="GStarr">
+					<String name="readableuni" value="GStarr" />
+				</value>
+				<value name="Gunzou">
+					<String name="readableuni" value="Gunzou" />
+				</value>
+				<value name="H2019_BorisAngler">
+					<String name="readableuni" value="H2019_BorisAngler" />
+				</value>
+				<value name="H2019_Chernomor">
+					<String name="readableuni" value="H2019_Chernomor" />
+				</value>
+				<value name="H2019_Cyborgotep">
+					<String name="readableuni" value="H2019_Cyborgotep" />
+				</value>
+				<value name="H2019_DavidVortexJones">
+					<String name="readableuni" value="H2019_DavidVortexJones" />
+				</value>
+				<value name="H2019_EcraseurSchubs">
+					<String name="readableuni" value="H2019_EcraseurSchubs" />
+				</value>
+				<value name="H2019_Mephisteufel">
+					<String name="readableuni" value="H2019_Mephisteufel" />
+				</value>
+				<value name="Haguro">
+					<String name="readableuni" value="Haguro" />
+				</value>
+				<value name="Halsey">
+					<String name="readableuni" value="Halsey" />
+				</value>
+				<value name="Hank_Bailey">
+					<String name="readableuni" value="Hank_Bailey" />
+				</value>
+				<value name="HANNOVER_CAP">
+					<String name="readableuni" value="HANNOVER_CAP" />
+				</value>
+				<value name="Haruna">
+					<String name="readableuni" value="Haruna" />
+				</value>
+				<value name="Helsind">
+					<String name="readableuni" value="Helsind" />
+				</value>
+				<value name="Helsind">
+					<String name="readableuni" value="Helsind" />
+				</value>
+				<value name="HFukuda">
+					<String name="readableuni" value="HFukuda" />
+				</value>
+				<value name="Hiei">
+					<String name="readableuni" value="Hiei" />
+				</value>
+				<value name="HORACEHOOD">
+					<String name="readableuni" value="HORACEHOOD" />
+				</value>
+				<value name="Hot_Rod">
+					<String name="readableuni" value="Hot_Rod" />
+				</value>
+				<value name="Houyi">
+					<String name="readableuni" value="Houyi" />
+				</value>
+				<value name="Hua_Hu">
+					<String name="readableuni" value="Hua_Hu" />
+				</value>
+				<value name="Hua_Qing">
+					<String name="readableuni" value="Hua_Qing" />
+				</value>
+				<value name="IJUINMATSUJI">
+					<String name="readableuni" value="IJUINMATSUJI" />
+				</value>
+				<value name="IkedaMamoru">
+					<String name="readableuni" value="IkedaMamoru" />
+				</value>
+				<value name="Iona">
+					<String name="readableuni" value="Iona" />
+				</value>
+				<value name="ISnowGiant2022">
+					<String name="readableuni" value="ISnowGiant2022" />
+				</value>
+				<value name="Isoroku">
+					<String name="readableuni" value="Isoroku" />
+				</value>
+				<value name="JakeeyHermann">
+					<String name="readableuni" value="JakeeyHermann" />
+				</value>
+				<value name="James_Dgrease_H18">
+					<String name="readableuni" value="James_Dgrease_H18" />
+				</value>
+				<value name="James_Dgrease_HW">
+					<String name="readableuni" value="James_Dgrease_HW" />
+				</value>
+				<value name="JAP_11010111101001">
+					<String name="readableuni" value="JAP_11010111101001" />
+				</value>
+				<value name="JAP_Queen_Bee">
+					<String name="readableuni" value="JAP_Queen_Bee" />
+				</value>
+				<value name="JAP_WWII_SA">
+					<String name="readableuni" value="JAP_WWII_SA" />
+				</value>
+				<value name="Jenkins">
+					<String name="readableuni" value="Jenkins" />
+				</value>
+				<value name="JG_Mephisteufel_H18">
+					<String name="readableuni" value="JG_Mephisteufel_H18" />
+				</value>
+				<value name="JG_Mephisteufel_H18">
+					<String name="readableuni" value="JG_Mephisteufel_H18" />
+				</value>
+				<value name="JNoel">
+					<String name="readableuni" value="JNoel" />
+				</value>
+				<value name="JTaliya">
+					<String name="readableuni" value="JTaliya" />
+				</value>
+				<value name="Kaguya">
+					<String name="readableuni" value="Kaguya" />
+				</value>
+				<value name="Kappa">
+					<String name="readableuni" value="Kappa" />
+				</value>
+				<value name="KeithBrown">
+					<String name="readableuni" value="KeithBrown" />
+				</value>
+				<value name="Kirishima">
+					<String name="readableuni" value="Kirishima" />
+				</value>
+				<value name="Kirishima_Bear">
+					<String name="readableuni" value="Kirishima_Bear" />
+				</value>
+				<value name="Klaus_Teslau">
+					<String name="readableuni" value="Klaus_Teslau" />
+				</value>
+				<value name="Klaus_Teslau">
+					<String name="readableuni" value="Klaus_Teslau" />
+				</value>
+				<value name="Klaus_Teslau_H18">
+					<String name="readableuni" value="Klaus_Teslau_H18" />
+				</value>
+				<value name="Klaus_Teslau_H18">
+					<String name="readableuni" value="Klaus_Teslau_H18" />
+				</value>
+				<value name="KobayashiSatoshi">
+					<String name="readableuni" value="KobayashiSatoshi" />
+				</value>
+				<value name="Kong">
+					<String name="readableuni" value="Kong" />
+				</value>
+				<value name="Kongou">
+					<String name="readableuni" value="Kongou" />
+				</value>
+				<value name="KOTS13_GER">
+					<String name="readableuni" value="KOTS13_GER" />
+				</value>
+				<value name="KOTS13_JAP">
+					<String name="readableuni" value="KOTS13_JAP" />
+				</value>
+				<value name="KOTS13_RUS">
+					<String name="readableuni" value="KOTS13_RUS" />
+				</value>
+				<value name="KOTS13_USA">
+					<String name="readableuni" value="KOTS13_USA" />
+				</value>
+				<value name="Kouko_Nosa">
+					<String name="readableuni" value="Kouko_Nosa" />
+				</value>
+				<value name="KUZNETSOV">
+					<String name="readableuni" value="KUZNETSOV" />
+				</value>
+				<value name="Lazar_Kent">
+					<String name="readableuni" value="Lazar_Kent" />
+				</value>
+				<value name="Lazar_Kent">
+					<String name="readableuni" value="Lazar_Kent" />
+				</value>
+				<value name="Lazar_Kent_H18">
+					<String name="readableuni" value="Lazar_Kent_H18" />
+				</value>
+				<value name="Lazar_Kent_H18">
+					<String name="readableuni" value="Lazar_Kent_H18" />
+				</value>
+				<value name="LDonaldson">
+					<String name="readableuni" value="LDonaldson" />
+				</value>
+				<value name="Leprechaun">
+					<String name="readableuni" value="Leprechaun" />
+				</value>
+				<value name="Liberty">
+					<String name="readableuni" value="Liberty" />
+				</value>
+				<value name="Lindworm">
+					<String name="readableuni" value="Lindworm" />
+				</value>
+				<value name="LUTJENS">
+					<String name="readableuni" value="LUTJENS" />
+				</value>
+				<value name="MARINE_HOSHOU">
+					<String name="readableuni" value="MARINE_HOSHOU" />
+				</value>
+				<value name="Maron_Yanagiwara">
+					<String name="readableuni" value="Maron_Yanagiwara" />
+				</value>
+				<value name="Max_Strauss_H18">
+					<String name="readableuni" value="Max_Strauss_H18" />
+				</value>
+				<value name="Max_Strauss_HW">
+					<String name="readableuni" value="Max_Strauss_HW" />
+				</value>
+				<value name="Maya">
+					<String name="readableuni" value="Maya" />
+				</value>
+				<value name="MayCap">
+					<String name="readableuni" value="MayCap" />
+				</value>
+				<value name="Megatron">
+					<String name="readableuni" value="Megatron" />
+				</value>
+				<value name="Mei_Irizaki">
+					<String name="readableuni" value="Mei_Irizaki" />
+				</value>
+				<value name="Midway_Commander_JP">
+					<String name="readableuni" value="Midway_Commander_JP" />
+				</value>
+				<value name="Midway_Commander_US">
+					<String name="readableuni" value="Midway_Commander_US" />
+				</value>
+				<value name="MightyJingles">
+					<String name="readableuni" value="MightyJingles" />
+				</value>
+				<value name="Mina_Thea">
+					<String name="readableuni" value="Mina_Thea" />
+				</value>
+				<value name="Mina_Ura">
+					<String name="readableuni" value="Mina_Ura" />
+				</value>
+				<value name="Mina_Ura">
+					<String name="readableuni" value="Mina_Ura" />
+				</value>
+				<value name="Mina_Ura_H18">
+					<String name="readableuni" value="Mina_Ura_H18" />
+				</value>
+				<value name="Mina_Ura_H18">
+					<String name="readableuni" value="Mina_Ura_H18" />
+				</value>
+				<value name="MinakamiShiori_ObonFest">
+					<String name="readableuni" value="MinakamiShiori_ObonFest" />
+				</value>
+				<value name="Moeka_China">
+					<String name="readableuni" value="Moeka_China" />
+				</value>
+				<value name="MoritzBrandt">
+					<String name="readableuni" value="MoritzBrandt" />
+				</value>
+				<value name="Mr_Hide">
+					<String name="readableuni" value="Mr_Hide" />
+				</value>
+				<value name="Mr_Hide">
+					<String name="readableuni" value="Mr_Hide" />
+				</value>
+				<value name="Musashi">
+					<String name="readableuni" value="Musashi" />
+				</value>
+				<value name="Myoko">
+					<String name="readableuni" value="Myoko" />
+				</value>
+				<value name="Nachi">
+					<String name="readableuni" value="Nachi" />
+				</value>
+				<value name="Narong_Duanta">
+					<String name="readableuni" value="Narong_Duanta" />
+				</value>
+				<value name="NETH_WWII_SA">
+					<String name="readableuni" value="NETH_WWII_SA" />
+				</value>
+				<value name="OliverWright">
+					<String name="readableuni" value="OliverWright" />
+				</value>
+				<value name="Optimus_Prime">
+					<String name="readableuni" value="Optimus_Prime" />
+				</value>
+				<value name="oshiro_Inuyama">
+					<String name="readableuni" value="oshiro_Inuyama" />
+				</value>
+				<value name="oshiro_osaka">
+					<String name="readableuni" value="oshiro_osaka" />
+				</value>
+				<value name="PA_Diesel">
+					<String name="readableuni" value="PA_Diesel" />
+				</value>
+				<value name="PA_Ecraseur">
+					<String name="readableuni" value="PA_Ecraseur" />
+				</value>
+				<value name="PA_Grozny">
+					<String name="readableuni" value="PA_Grozny" />
+				</value>
+				<value name="PA_Rattenkonig">
+					<String name="readableuni" value="PA_Rattenkonig" />
+				</value>
+				<value name="PA_Scarlet">
+					<String name="readableuni" value="PA_Scarlet" />
+				</value>
+				<value name="PA_Skullcap">
+					<String name="readableuni" value="PA_Skullcap" />
+				</value>
+				<value name="PA_Truba">
+					<String name="readableuni" value="PA_Truba" />
+				</value>
+				<value name="PA_Vagabond">
+					<String name="readableuni" value="PA_Vagabond" />
+				</value>
+				<value name="PA_Vortex">
+					<String name="readableuni" value="PA_Vortex" />
+				</value>
+				<value name="PANAZ_WWII_SA">
+					<String name="readableuni" value="PANAZ_WWII_SA" />
+				</value>
+				<value name="Paolo_Navigatore">
+					<String name="readableuni" value="Paolo_Navigatore" />
+				</value>
+				<value name="Pearl_Harbor_JAP">
+					<String name="readableuni" value="Pearl_Harbor_JAP" />
+				</value>
+				<value name="Pearl_Harbor_USA">
+					<String name="readableuni" value="Pearl_Harbor_USA" />
+				</value>
+				<value name="Pedro_Max">
+					<String name="readableuni" value="Pedro_Max" />
+				</value>
+				<value name="peter_the_great">
+					<String name="readableuni" value="peter_the_great" />
+				</value>
+				<value name="Privateer">
+					<String name="readableuni" value="Privateer" />
+				</value>
+				<value name="Quan_Rong">
+					<String name="readableuni" value="Quan_Rong" />
+				</value>
+				<value name="Raizo_Suzuki">
+					<String name="readableuni" value="Raizo_Suzuki" />
+				</value>
+				<value name="Rattus_Rogue_H2020">
+					<String name="readableuni" value="Rattus_Rogue_H2020" />
+				</value>
+				<value name="RaymondLewis">
+					<String name="readableuni" value="RaymondLewis" />
+				</value>
+				<value name="Reinhard_Logh">
+					<String name="readableuni" value="Reinhard_Logh" />
+				</value>
+				<value name="Rick_Hotep_H18">
+					<String name="readableuni" value="Rick_Hotep_H18" />
+				</value>
+				<value name="Rick_Hotep_H18">
+					<String name="readableuni" value="Rick_Hotep_H18" />
+				</value>
+				<value name="Ru_Hu">
+					<String name="readableuni" value="Ru_Hu" />
+				</value>
+				<value name="Rumble">
+					<String name="readableuni" value="Rumble" />
+				</value>
+				<value name="RUS_Red_Freedom">
+					<String name="readableuni" value="RUS_Red_Freedom" />
+				</value>
+				<value name="RUS_WWII_SA">
+					<String name="readableuni" value="RUS_WWII_SA" />
+				</value>
+				<value name="Rusalka_BDay22">
+					<String name="readableuni" value="Rusalka_BDay22" />
+				</value>
+				<value name="RUSCAP">
+					<String name="readableuni" value="RUSCAP" />
+				</value>
+				<value name="RVR_Chatam">
+					<String name="readableuni" value="RVR_Chatam" />
+				</value>
+				<value name="RVR_Clydebank">
+					<String name="readableuni" value="RVR_Clydebank" />
+				</value>
+				<value name="RVR_Elswick">
+					<String name="readableuni" value="RVR_Elswick" />
+				</value>
+				<value name="Sa_Zhenbing">
+					<String name="readableuni" value="Sa_Zhenbing" />
+				</value>
+				<value name="Sairus_Gerrero">
+					<String name="readableuni" value="Sairus_Gerrero" />
+				</value>
+				<value name="Sairus_Gerrero_H18">
+					<String name="readableuni" value="Sairus_Gerrero_H18" />
+				</value>
+				<value name="Sairus_Guerrero">
+					<String name="readableuni" value="Sairus_Guerrero" />
+				</value>
+				<value name="Sairus_Guerrero_H18">
+					<String name="readableuni" value="Sairus_Guerrero_H18" />
+				</value>
+				<value name="Salvatore_Capitano">
+					<String name="readableuni" value="Salvatore_Capitano" />
+				</value>
+				<value name="SANSONETTI">
+					<String name="readableuni" value="SANSONETTI" />
+				</value>
+				<value name="Santa_Europe">
+					<String name="readableuni" value="Santa_Europe" />
+				</value>
+				<value name="Santa_France">
+					<String name="readableuni" value="Santa_France" />
+				</value>
+				<value name="Santa_Germany">
+					<String name="readableuni" value="Santa_Germany" />
+				</value>
+				<value name="Santa_Holland">
+					<String name="readableuni" value="Santa_Holland" />
+				</value>
+				<value name="Santa_Italy">
+					<String name="readableuni" value="Santa_Italy" />
+				</value>
+				<value name="Santa_Japan">
+					<String name="readableuni" value="Santa_Japan" />
+				</value>
+				<value name="Santa_PanAmerica">
+					<String name="readableuni" value="Santa_PanAmerica" />
+				</value>
+				<value name="Santa_Panazia">
+					<String name="readableuni" value="Santa_Panazia" />
+				</value>
+				<value name="Santa_Pirate">
+					<String name="readableuni" value="Santa_Pirate" />
+				</value>
+				<value name="Santa_Russia">
+					<String name="readableuni" value="Santa_Russia" />
+				</value>
+				<value name="Santa_Spain">
+					<String name="readableuni" value="Santa_Spain" />
+				</value>
+				<value name="Santa_UK">
+					<String name="readableuni" value="Santa_UK" />
+				</value>
+				<value name="Santa_USA">
+					<String name="readableuni" value="Santa_USA" />
+				</value>
+				<value name="Sanzang">
+					<String name="readableuni" value="Sanzang" />
+				</value>
+				<value name="Satou_Ichirou">
+					<String name="readableuni" value="Satou_Ichirou" />
+				</value>
+				<value name="SATSUMA_CAP">
+					<String name="readableuni" value="SATSUMA_CAP" />
+				</value>
+				<value name="Scroogeklaas">
+					<String name="readableuni" value="Scroogeklaas" />
+				</value>
+				<value name="Seagal">
+					<String name="readableuni" value="Seagal" />
+				</value>
+				<value name="Siegfried_Logh">
+					<String name="readableuni" value="Siegfried_Logh" />
+				</value>
+				<value name="Soundwave">
+					<String name="readableuni" value="Soundwave" />
+				</value>
+				<value name="Southern_dragon_king">
+					<String name="readableuni" value="Southern_dragon_king" />
+				</value>
+				<value name="soviet_8_march">
+					<String name="readableuni" value="soviet_8_march" />
+				</value>
+				<value name="Spaceman1">
+					<String name="readableuni" value="Spaceman1" />
+				</value>
+				<value name="Spaceman2">
+					<String name="readableuni" value="Spaceman2" />
+				</value>
+				<value name="Spaceman3">
+					<String name="readableuni" value="Spaceman3" />
+				</value>
+				<value name="Spaceman4">
+					<String name="readableuni" value="Spaceman4" />
+				</value>
+				<value name="Spaceman5">
+					<String name="readableuni" value="Spaceman5" />
+				</value>
+				<value name="Spaceman6">
+					<String name="readableuni" value="Spaceman6" />
+				</value>
+				<value name="Spaceman7">
+					<String name="readableuni" value="Spaceman7" />
+				</value>
+				<value name="Spaceman8">
+					<String name="readableuni" value="Spaceman8" />
+				</value>
+				<value name="Spaceman9">
+					<String name="readableuni" value="Spaceman9" />
+				</value>
+				<value name="ST_1">
+					<String name="readableuni" value="ST_1" />
+				</value>
+				<value name="ST_2">
+					<String name="readableuni" value="ST_2" />
+				</value>
+				<value name="Starr">
+					<String name="readableuni" value="Starr" />
+				</value>
+				<value name="Starscream">
+					<String name="readableuni" value="Starscream" />
+				</value>
+				<value name="SWIRSKI">
+					<String name="readableuni" value="SWIRSKI" />
+				</value>
+				<value name="Takao">
+					<String name="readableuni" value="Takao" />
+				</value>
+				<value name="Takeo_Suzuki">
+					<String name="readableuni" value="Takeo_Suzuki" />
+				</value>
+				<value name="Takeo_Takagi">
+					<String name="readableuni" value="Takeo_Takagi" />
+				</value>
+				<value name="Taliya">
+					<String name="readableuni" value="Taliya" />
+				</value>
+				<value name="Tao_Ji">
+					<String name="readableuni" value="Tao_Ji" />
+				</value>
+				<value name="TRUBETSKOY">
+					<String name="readableuni" value="TRUBETSKOY" />
+				</value>
+				<value name="UK_Dart_Norman">
+					<String name="readableuni" value="UK_Dart_Norman" />
+				</value>
+				<value name="UK_WWII_SA">
+					<String name="readableuni" value="UK_WWII_SA" />
+				</value>
+				<value name="UKCAP">
+					<String name="readableuni" value="UKCAP" />
+				</value>
+				<value name="Unknown">
+					<String name="readableuni" value="Unknown" />
+				</value>
+				<value name="Unsinkable_Sam_Ger">
+					<String name="readableuni" value="Unsinkable_Sam_Ger" />
+				</value>
+				<value name="Unsinkable_Sam_UK">
+					<String name="readableuni" value="Unsinkable_Sam_UK" />
+				</value>
+				<value name="US_WWII_SA">
+					<String name="readableuni" value="US_WWII_SA" />
+				</value>
+				<value name="USA_Cybermedes">
+					<String name="readableuni" value="USA_Cybermedes" />
+				</value>
+				<value name="USA_Hzrzngh">
+					<String name="readableuni" value="USA_Hzrzngh" />
+				</value>
+				<value name="USACAP">
+					<String name="readableuni" value="USACAP" />
+				</value>
+				<value name="USAOVECHKIN">
+					<String name="readableuni" value="USAOVECHKIN" />
+				</value>
+				<value name="USAOVECHKINPREM">
+					<String name="readableuni" value="USAOVECHKINPREM" />
+				</value>
+				<value name="USAOVECHKINPREMHELL">
+					<String name="readableuni" value="USAOVECHKINPREMHELL" />
+				</value>
+				<value name="USSROVECHKIN">
+					<String name="readableuni" value="USSROVECHKIN" />
+				</value>
+				<value name="Van_Shubs_H18">
+					<String name="readableuni" value="Van_Shubs_H18" />
+				</value>
+				<value name="Van_Shubs_H18">
+					<String name="readableuni" value="Van_Shubs_H18" />
+				</value>
+				<value name="Warhammer_Blacktemplar">
+					<String name="readableuni" value="Warhammer_Blacktemplar" />
+				</value>
+				<value name="Warhammer_Ork">
+					<String name="readableuni" value="Warhammer_Ork" />
+				</value>
+				<value name="WarhammerChaos">
+					<String name="readableuni" value="WarhammerChaos" />
+				</value>
+				<value name="WarhammerImperial">
+					<String name="readableuni" value="WarhammerImperial" />
+				</value>
+				<value name="Welthund">
+					<String name="readableuni" value="Welthund" />
+				</value>
+				<value name="WEST">
+					<String name="readableuni" value="WEST" />
+				</value>
+				<value name="Willie_Neumann">
+					<String name="readableuni" value="Willie_Neumann" />
+				</value>
+				<value name="WimHindenmann">
+					<String name="readableuni" value="WimHindenmann" />
+				</value>
+				<value name="Wonyong_Ryu">
+					<String name="readableuni" value="Wonyong_Ryu" />
+				</value>
+				<value name="WoWoNiang_France">
+					<String name="readableuni" value="WoWoNiang_France" />
+				</value>
+				<value name="WoWoNiang_Japan">
+					<String name="readableuni" value="WoWoNiang_Japan" />
+				</value>
+				<value name="WoWoNiang_PanAsia">
+					<String name="readableuni" value="WoWoNiang_PanAsia" />
+				</value>
+				<value name="WoWoNiang_UK">
+					<String name="readableuni" value="WoWoNiang_UK" />
+				</value>
+				<value name="WoWoNiang_USA">
+					<String name="readableuni" value="WoWoNiang_USA" />
+				</value>
+				<value name="WoWs_WoT">
+					<String name="readableuni" value="WoWs_WoT" />
+				</value>
+				<value name="Wujing">
+					<String name="readableuni" value="Wujing" />
+				</value>
+				<value name="Wukong">
+					<String name="readableuni" value="Wukong" />
+				</value>
+				<value name="Yamamoto">
+					<String name="readableuni" value="Yamamoto" />
+				</value>
+				<value name="Yamato">
+					<String name="readableuni" value="Yamato" />
+				</value>
+				<value name="Yang_Logh">
+					<String name="readableuni" value="Yang_Logh" />
+				</value>
+				<value name="Yi_Sun_Sin">
+					<String name="readableuni" value="Yi_Sun_Sin" />
+				</value>
+				<value name="Yu_Cheng">
+					<String name="readableuni" value="Yu_Cheng" />
+				</value>
+			</values>
+			<references />
+		</state>
+		<state name="Damage_Frag_Type">
+			<String name="readableru" value="Тип фрага" />
+			<String name="readableen" value="Frag type" />
+			<String name="descriptionru" value="Позволяет управлять звуками по типу фрагнутой техники" />
+			<String name="descriptionen" value="Allows you to control the sounds related  to fragged vehicle type" />
+			<references>
+				<event name="Play_VO_Frags" />
+			</references>
+			<values>
+				<value name="Damage_Frag_AirCarrier">
+					<String name="readableru" value="Авианосец уничтожен" />
+					<String name="readableen" value="Aircarrier" />
+				</value>
+				<value name="Damage_Frag_Battleship">
+					<String name="readableru" value="Линкор уничтожен" />
+					<String name="readableen" value="Battleship" />
+				</value>
+				<value name="Damage_Frag_Cruiser">
+					<String name="readableru" value="Крейсер уничтожен" />
+					<String name="readableen" value="Cruiser" />
+				</value>
+				<value name="Damage_Frag_Destroyer">
+					<String name="readableru" value="Эсминец уничтожен" />
+					<String name="readableen" value="Destroyer" />
+				</value>
+				<value name="Damage_Frag_Submarine">
+					<String name="readableru" value="Подводная лодка уничтожена" />
+					<String name="readableen" value="Sub" />
+				</value>
+				<value name="Damage_Frag_Unknown">
+					<String name="readableru" value="Не задано" />
+				</value>
+			</values>
+		</state>
+		<state name="Damage_Hit_Relation">
+			<String name="readableru" value="Куда было попадание" />
+			<String name="readableen" value="Hit relation" />
+			<String name="descriptionru" value="Позволяет управлять звуками по типу поверхности в которую попали" />
+			<String name="descriptionen" value="Allows you to control the sounds related  to shells/torpedoes hit" />
+			<references />
+			<values>
+				<value name="Damage_Hit_Relation_Ship">
+					<String name="readableru" value="Попадание в корабль" />
+					<String name="readableen" value="Ship" />
+				</value>
+				<value name="Damage_Hit_Relation_Terrain">
+					<String name="readableru" value="Попадание в террейн" />
+					<String name="readableen" value="Terrain" />
+				</value>
+				<value name="Damage_Hit_Relation_Water">
+					<String name="readableru" value="Попадание в воду" />
+					<String name="readableen" value="Water" />
+				</value>
+			</values>
+		</state>
+		<state name="Damage_Hit_Type">
+			<String name="readableru" value="Типы попаданий, [readableen] hit type" />
+			<String name="descriptionru" value="Типы попаданий - рикошеты, сквозные, фраги, итд..." />
+			<String name="descriptionen" value="Different hit types - frags, ricochets etc" />
+			<references>
+				<event name="Play_UI_Hits" />
+			</references>
+			<values>
+				<value name="Damage_Hit_Type_Allied_Frag">
+					<String name="readableru" value="Уничтожение союзника" />
+					<String name="readableen" value="Allied frag" />
+				</value>
+				<value name="Damage_Hit_Type_Frag_Plane">
+					<String name="readableru" value="Уничтожение самолёта" />
+					<String name="readableen" value="Plane destroyed" />
+				</value>
+				<value name="Damage_Hit_Type_Frag_Ship">
+					<String name="readableru" value="Уничтожение корабля" />
+					<String name="readableen" value="Ship destroyed" />
+				</value>
+				<value name="Damage_Hit_Type_Hard_Damage">
+					<String name="readableru" value="Нанесение тяжелого урона" />
+					<String name="readableen" value="Hit with high damage" />
+				</value>
+				<value name="Damage_Hit_Type_Low_Damage">
+					<String name="readableru" value="Нанесение легкого урона" />
+					<String name="readableen" value="Hit with low damage" />
+				</value>
+				<value name="Damage_Hit_Type_Module_Destroyed">
+					<String name="readableru" value="Уничтожение модуля" />
+					<String name="readableen" value="Module destroyed" />
+				</value>
+				<value name="Damage_Hit_Type_Ricochet">
+					<String name="readableru" value="Рикошет" />
+					<String name="readableen" value="Ricochet" />
+				</value>
+				<value name="Damage_Hit_Type_Through">
+					<String name="readableru" value="Сквозное пробитие" />
+					<String name="readableen" value="Hit through with low or no damage" />
+				</value>
+			</values>
+		</state>
+		<state name="GameMode">
+			<String name="readableuni" value="Game Mode" />
+			<values>
+				<value name="ANTI_STANDARD">
+					<String name="readableuni" value="ANTI_STANDARD" />
+				</value>
+				<value name="ARMS_RACE">
+					<String name="readableuni" value="ARMS_RACE" />
+				</value>
+				<value name="ASSAULT_DEFENSE">
+					<String name="readableuni" value="ASSAULT_DEFENSE" />
+				</value>
+				<value name="ATTACK_DEFENSE">
+					<String name="readableuni" value="ATTACK_DEFENSE" />
+				</value>
+				<value name="CONVOY_AIRSHIP">
+					<String name="readableuni" value="CONVOY_AIRSHIP" />
+				</value>
+				<value name="CONVOY_EVENT">
+					<String name="readableuni" value="CONVOY_EVENT" />
+				</value>
+				<value name="DOMINATION">
+					<String name="readableuni" value="DOMINATION" />
+				</value>
+				<value name="DOMINATION_ASYMM">
+					<String name="readableuni" value="DOMINATION_ASYMM" />
+				</value>
+				<value name="DOMINATION_LIKE">
+					<String name="readableuni" value="DOMINATION_LIKE" />
+				</value>
+				<value name="DOSSIER_GAME_MODES">
+					<String name="readableuni" value="DOSSIER_GAME_MODES" />
+				</value>
+				<value name="EPICENTER">
+					<String name="readableuni" value="EPICENTER" />
+				</value>
+				<value name="EPICENTER_RING">
+					<String name="readableuni" value="EPICENTER_RING" />
+				</value>
+				<value name="ESCAPE_TO_PORTAL">
+					<String name="readableuni" value="ESCAPE_TO_PORTAL" />
+				</value>
+				<value name="FORTS">
+					<String name="readableuni" value="FORTS" />
+				</value>
+				<value name="KEY_BATTLE">
+					<String name="readableuni" value="KEY_BATTLE" />
+				</value>
+				<value name="MEGABASE">
+					<String name="readableuni" value="MEGABASE" />
+				</value>
+				<value name="PORTAL_2021">
+					<String name="readableuni" value="PORTAL_2021" />
+				</value>
+				<value name="PORTAL_EXIT_LIKE">
+					<String name="readableuni" value="PORTAL_EXIT_LIKE" />
+				</value>
+				<value name="PVE">
+					<String name="readableuni" value="PVE" />
+				</value>
+				<value name="RECAPTURE_CP_MODES">
+					<String name="readableuni" value="RECAPTURE_CP_MODES" />
+				</value>
+				<value name="SINGLEBASE">
+					<String name="readableuni" value="SINGLEBASE" />
+				</value>
+				<value name="STANDARD">
+					<String name="readableuni" value="STANDARD" />
+				</value>
+				<value name="STANDARD_DOMINATION">
+					<String name="readableuni" value="STANDARD_DOMINATION" />
+				</value>
+				<value name="TEAM_BATTLE_ROYALE">
+					<String name="readableuni" value="TEAM_BATTLE_ROYALE" />
+				</value>
+				<value name="TEAM_BATTLE_ROYALE_2021">
+					<String name="readableuni" value="TEAM_BATTLE_ROYALE_2021" />
+				</value>
+				<value name="TEST">
+					<String name="readableuni" value="TEST" />
+				</value>
+				<value name="TORPEDO_BEAT">
+					<String name="readableuni" value="TORPEDO_BEAT" />
+				</value>
+				<value name="TUTORIAL">
+					<String name="readableuni" value="TUTORIAL" />
+				</value>
+				<value name="TWO_TEAMS_BATTLE_ROYALE">
+					<String name="readableuni" value="TWO_TEAMS_BATTLE_ROYALE" />
+				</value>
+			</values>
+			<references />
+		</state>
+		<state name="HelpType">
+			<String name="readableru" value="Расходники" />
+			<String name="readableen" value="Consumable" />
+			<String name="descriptionru" value="Выбор специальных звуков для расходников по типам" />
+			<String name="descriptionen" value="You can set up the sounds related to each consumable" />
+			<references>
+				<event name="Play_UI_Consumable" />
+				<event name="Play_UI_Consumable_End" />
+				<event name="Play_UI_Consumable_Interrupted" />
+			</references>
+			<values>
+				<value name="AddConsumable_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="AirDefenseDisp">
+					<String name="readableru" value="Усиленный режим работы пво" />
+					<String name="readableen" value="Aac (in use)" />
+				</value>
+				<value name="CallFighters">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="ConsumableRLSSearch">
+					<String name="readableru" value="Рлс" />
+					<String name="readableen" value="Radio location" />
+				</value>
+				<value name="CrashCrew">
+					<String name="readableru" value="Ремонтная команда" />
+					<String name="readableen" value="Problem_solved (in use)" />
+				</value>
+				<value name="CrashCrew_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="DepthCharges" />
+				<value name="Engine">
+					<String name="readableru" value="Форсаж" />
+					<String name="readableen" value="Forsage (in use)" />
+				</value>
+				<value name="Escadrilla">
+					<String name="readableru" value="Ускоренная подготовка самолётов" />
+					<String name="readableen" value="Squadron fast take off" />
+				</value>
+				<value name="fastRudders" />
+				<value name="Fighter">
+					<String name="readableru" value="Катапультный истребитель" />
+					<String name="readableen" value="Catfight (in use)" />
+				</value>
+				<value name="FighterCons">
+					<String name="readableru" value="Истребитель расходник" />
+					<String name="readableen" value="Fighte rcons" />
+				</value>
+				<value name="FilthPower_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Halloween2019_ForsageUnkillable_Boost" />
+				<value name="Halloween2019_HealShell_Boost" />
+				<value name="Halloween2019_Immortal_Boost" />
+				<value name="Halloween2019_ImproveRegen_Boost" />
+				<value name="Halloween2019_ImproveSpeed_Boost" />
+				<value name="Halloween2019_RegenResist_Boost" />
+				<value name="Halloween2019_Resist_Boost" />
+				<value name="Halloween2019_TorpedoReload_Boost" />
+				<value name="Halloween2019_Vampiric_Boost" />
+				<value name="Halloween2020_BuffsShift" />
+				<value name="Halloween2020_CircleWave" />
+				<value name="Halloween2020_CrashCrew" />
+				<value name="Halloween2020_DrainZone" />
+				<value name="Halloween2020_GoDeep" />
+				<value name="Halloween2020_HealAll" />
+				<value name="Halloween2020_HealBuff" />
+				<value name="Halloween2020_HealZone" />
+				<value name="Halloween2020_InvisibleRegen" />
+				<value name="Halloween2020_InvulnerableZone" />
+				<value name="Halloween2020_Regen" />
+				<value name="Halloween2020_ReloadBooster" />
+				<value name="Halloween2020_ResistAllBuff" />
+				<value name="Halloween2020_SpeedBooster" />
+				<value name="Halloween2020_SpeedBuff" />
+				<value name="Halloween2020_TurnAround" />
+				<value name="HealAll_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="HealForsage">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="HealShell_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="HealZone_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Hydroacoustic">
+					<String name="readableru" value="Гидроакустический поиск" />
+					<String name="readableen" value="Hydroacoustic search" />
+				</value>
+				<value name="Hydrophone" />
+				<value name="Immortal_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Invulnerable">
+					<String name="readableru" value="Iddqd" />
+					<String name="readableen" value="Iddqd" />
+				</value>
+				<value name="Invulnerable_PVP">
+					<String name="readableru" value="Режим нагиба" />
+					<String name="readableen" value="Dev cheat mode" />
+				</value>
+				<value name="LifeDrain_PVP">
+					<String name="readableru" value="Режим угнетения" />
+					<String name="readableen" value="Gamer pain mode" />
+				</value>
+				<value name="LivingArmor_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="MG">
+					<String name="readableru" value="Ускоренная перезарядка главного калибра" />
+					<String name="readableen" value="Fast mg reload" />
+				</value>
+				<value name="MindControl_PVP">
+					<String name="readableru" value="Зомбирование" />
+					<String name="readableen" value="Mind control mode" />
+				</value>
+				<value name="RegenCrew">
+					<String name="readableru" value="Восстановление hp" />
+					<String name="readableen" value="Health points restore" />
+				</value>
+				<value name="RegenerateHealth" />
+				<value name="RegenerateOxygen" />
+				<value name="RLSSearch_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Scout">
+					<String name="readableru" value="Разведчик" />
+					<String name="readableen" value="Corr (in use)" />
+				</value>
+				<value name="Silence_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Smoke">
+					<String name="readableru" value="Дымогенератор" />
+					<String name="readableen" value="Smoke (in use)" />
+				</value>
+				<value name="SmokeGenerator_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Sniper_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="SonarSearch_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="SpeedBooster">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="SpeedBooster_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="SubmarineLocator" />
+				<value name="subsEnergyFreeze" />
+				<value name="SunnyPower_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="TA">
+					<String name="readableru" value="Ускоренная перезарядка торпедного аппарата" />
+					<String name="readableen" value="Torpedo fast reload" />
+				</value>
+				<value name="TorpedoReloader_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger1">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger2">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger3">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger4">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger5">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger6">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger7">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Trigger8" />
+				<value name="Trigger9" />
+				<value name="TurnAround_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="UI_Submarine_Consumable_DeepDive" />
+				<value name="Unknown">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="Vampiric_PVP">
+					<String name="readableru" value="Не использовать" />
+					<String name="readableen" value="No use" />
+				</value>
+				<value name="WaveGun" />
+			</values>
+		</state>
+		<state name="isPlayer">
+			<String name="readableru" value="Игрок/неигрок" />
+			<String name="readableen" value="Isplayer" />
+			<String name="descriptionru" value="Отношение звуков к звукам игрока или окружащих его игроков" />
+			<String name="descriptionen" value="Sounds relating to player or npc" />
+			<references>
+				<event name="Play_Damage_Death" />
+			</references>
+			<values>
+				<value name="False">
+					<String name="readableru" value="Не-игрок" />
+					<String name="readableen" value="Enemy" />
+				</value>
+				<value name="True">
+					<String name="readableru" value="Игрок" />
+					<String name="readableen" value="Ally" />
+				</value>
+			</values>
+		</state>
+		<state name="Module_State">
+			<String name="readableru" value="Состояние модулей" />
+			<String name="readableen" value="Modules state" />
+			<references>
+				<event name="Play_UI_Alarm_Defective_Modules" />
+			</references>
+			<values>
+				<value name="Module_State_Crit">
+					<String name="readableru" value="Закритован" />
+					<String name="readableen" value="Damaged" />
+				</value>
+				<value name="Module_State_Dead">
+					<String name="readableru" value="Уничтожен" />
+					<String name="readableen" value="Destroyed" />
+				</value>
+				<value name="Module_State_Error">
+					<String name="readableru" value="Функционирует неправильно" />
+					<String name="readableen" value="Error" />
+				</value>
+				<value name="Module_State_Ok">
+					<String name="readableru" value="Функционирует нормально" />
+					<String name="readableen" value="Nicey!" />
+				</value>
+			</values>
+		</state>
+		<state name="Module_Type">
+			<String name="readableru" value="Тип модуля" />
+			<String name="readableen" value="Module type" />
+			<references>
+				<event name="Play_UI_Alarm_Defective_Modules" />
+			</references>
+			<values>
+				<value name="Module_Type_Engine">
+					<String name="readableru" value="Двигатель" />
+					<String name="readableen" value="Engine" />
+				</value>
+				<value name="Module_Type_MainGun">
+					<String name="readableru" value="Пушка главного калибра (консоли)" />
+					<String name="readableen" value="Main gun (consoles)" />
+				</value>
+				<value name="Module_Type_MG">
+					<String name="readableru" value="Пушка главного калибра" />
+					<String name="readableen" value="Maingun" />
+				</value>
+				<value name="Module_Type_Steering_Wheel">
+					<String name="readableru" value="Рулевое колесо" />
+					<String name="readableen" value="Wheel" />
+				</value>
+				<value name="Module_Type_TA">
+					<String name="readableru" value="Торпедный аппарат" />
+					<String name="readableen" value="Torpedo" />
+				</value>
+				<value name="Module_Type_TorpedoGun">
+					<String name="readableru" value="Торпедный аппарат (консоли)" />
+					<String name="readableen" value="Torpedo tubes (consoles)" />
+				</value>
+			</values>
+		</state>
+		<state name="Plane_Type">
+			<String name="readableru" value="Типы эскадрилий" />
+			<String name="readableen" value="Plane type" />
+			<references>
+				<event name="Play_VO_Pilots_ID" />
+				<event name="Play_VO_Pilots_Status" />
+			</references>
+			<values>
+				<value name="Bomber">
+					<String name="readableru" value="Бомбардировщик" />
+					<String name="readableen" value="Bomber" />
+				</value>
+				<value name="Fighter">
+					<String name="readableru" value="Истребитель" />
+					<String name="readableen" value="Fighter" />
+				</value>
+				<value name="FighterCons">
+					<String name="readableru" value="Катапультный истребитель" />
+					<String name="readableen" value="Catfight" />
+				</value>
+				<value name="Scout">
+					<String name="readableru" value="Разведчик" />
+					<String name="readableen" value="Corr" />
+				</value>
+				<value name="SkipBomber" />
+				<value name="Torpedo">
+					<String name="readableru" value="Торпедоносец" />
+					<String name="readableen" value="Torpedo" />
+				</value>
+			</values>
+		</state>
+		<state name="PVETask">
+			<String name="readableuni" value="PVE Task" />
+			<values>
+				<value name="000_001_BEWARE_RASPUTIN_WARNING">
+					<String name="readableuni" value="000_001_BEWARE_RASPUTIN_WARNING" />
+				</value>
+				<value name="000_001_MAIN_TASK_BRIEFING">
+					<String name="readableuni" value="000_001_MAIN_TASK_BRIEFING" />
+				</value>
+				<value name="000_001_MAIN_TASK_TASK_END_F">
+					<String name="readableuni" value="000_001_MAIN_TASK_TASK_END_F" />
+				</value>
+				<value name="000_001_MAIN_TASK_TASK_END_S">
+					<String name="readableuni" value="000_001_MAIN_TASK_TASK_END_S" />
+				</value>
+				<value name="000_001_MAIN_TASK_TASK_WILL_END_F">
+					<String name="readableuni" value="000_001_MAIN_TASK_TASK_WILL_END_F" />
+				</value>
+				<value name="000_001_TRANSILVANIA_HINT">
+					<String name="readableuni" value="000_001_TRANSILVANIA_HINT" />
+				</value>
+				<value name="000_021_PAYLOAD_HALF_HEALTH_TASK_END_F">
+					<String name="readableuni" value="000_021_PAYLOAD_HALF_HEALTH_TASK_END_F" />
+				</value>
+				<value name="000_022_KILL_ALL_ENEMIES_TASK_END_S">
+					<String name="readableuni" value="000_022_KILL_ALL_ENEMIES_TASK_END_S" />
+				</value>
+				<value name="000_024_UNSTOPPABLE_TASK_END_F_ENEMY_IS_COMING">
+					<String name="readableuni" value="000_024_UNSTOPPABLE_TASK_END_F_ENEMY_IS_COMING" />
+				</value>
+				<value name="000_024_UNSTOPPABLE_TASK_END_F_NO_FRIENDS">
+					<String name="readableuni" value="000_024_UNSTOPPABLE_TASK_END_F_NO_FRIENDS" />
+				</value>
+				<value name="@TRANSPORT@_ARRIVED">
+					<String name="readableuni" value="@TRANSPORT@_ARRIVED" />
+				</value>
+				<value name="ANTISTANDART_CSM_01">
+					<String name="readableuni" value="ANTISTANDART_CSM_01" />
+				</value>
+				<value name="ANTISTANDART_CSM_02">
+					<String name="readableuni" value="ANTISTANDART_CSM_02" />
+				</value>
+				<value name="ANTISTANDART_CSM_03">
+					<String name="readableuni" value="ANTISTANDART_CSM_03" />
+				</value>
+				<value name="ANTISTANDART_CSM_04">
+					<String name="readableuni" value="ANTISTANDART_CSM_04" />
+				</value>
+				<value name="Cons_HealAll_PVP">
+					<String name="readableuni" value="Cons_HealAll_PVP" />
+				</value>
+				<value name="CONTROLPOINT_ACTION">
+					<String name="readableuni" value="CONTROLPOINT_ACTION" />
+				</value>
+				<value name="CONVOY_ALLY_TRANSP_DETECTED">
+					<String name="readableuni" value="CONVOY_ALLY_TRANSP_DETECTED" />
+				</value>
+				<value name="CONVOY_ALLY_TRANSP_SUNK">
+					<String name="readableuni" value="CONVOY_ALLY_TRANSP_SUNK" />
+				</value>
+				<value name="CONVOY_CHAT_TEAM_0_MESSAGE">
+					<String name="readableuni" value="CONVOY_CHAT_TEAM_0_MESSAGE" />
+				</value>
+				<value name="CONVOY_CHAT_TEAM_1_MESSAGE">
+					<String name="readableuni" value="CONVOY_CHAT_TEAM_1_MESSAGE" />
+				</value>
+				<value name="CONVOY_ENEMY_TRANSP_DETECTED">
+					<String name="readableuni" value="CONVOY_ENEMY_TRANSP_DETECTED" />
+				</value>
+				<value name="CONVOY_ENEMY_TRANSP_SUNK">
+					<String name="readableuni" value="CONVOY_ENEMY_TRANSP_SUNK" />
+				</value>
+				<value name="CONVOY_LIGHT_LOS_TEAM_0_REASON_1">
+					<String name="readableuni" value="CONVOY_LIGHT_LOS_TEAM_0_REASON_1" />
+				</value>
+				<value name="CONVOY_LIGHT_LOS_TEAM_0_REASON_2">
+					<String name="readableuni" value="CONVOY_LIGHT_LOS_TEAM_0_REASON_2" />
+				</value>
+				<value name="CONVOY_LIGHT_LOS_TEAM_1_REASON_3">
+					<String name="readableuni" value="CONVOY_LIGHT_LOS_TEAM_1_REASON_3" />
+				</value>
+				<value name="CONVOY_LIGHT_LOS_TEAM_1_REASON_4">
+					<String name="readableuni" value="CONVOY_LIGHT_LOS_TEAM_1_REASON_4" />
+				</value>
+				<value name="CONVOY_LIGHT_RULE_1_TEAM_0">
+					<String name="readableuni" value="CONVOY_LIGHT_RULE_1_TEAM_0" />
+				</value>
+				<value name="CONVOY_LIGHT_RULE_1_TEAM_1">
+					<String name="readableuni" value="CONVOY_LIGHT_RULE_1_TEAM_1" />
+				</value>
+				<value name="CONVOY_LIGHT_WIN_TEAM_0_REASON_3">
+					<String name="readableuni" value="CONVOY_LIGHT_WIN_TEAM_0_REASON_3" />
+				</value>
+				<value name="CONVOY_LIGHT_WIN_TEAM_0_REASON_4">
+					<String name="readableuni" value="CONVOY_LIGHT_WIN_TEAM_0_REASON_4" />
+				</value>
+				<value name="CONVOY_LIGHT_WIN_TEAM_1_REASON_1">
+					<String name="readableuni" value="CONVOY_LIGHT_WIN_TEAM_1_REASON_1" />
+				</value>
+				<value name="CONVOY_LIGHT_WIN_TEAM_1_REASON_2">
+					<String name="readableuni" value="CONVOY_LIGHT_WIN_TEAM_1_REASON_2" />
+				</value>
+				<value name="ESCAPE_TO_PORTAL_ALL_PLAYERS_DIE">
+					<String name="readableuni" value="ESCAPE_TO_PORTAL_ALL_PLAYERS_DIE" />
+				</value>
+				<value name="ESCAPE_TO_PORTAL_CRITTERS_ARRIVE">
+					<String name="readableuni" value="ESCAPE_TO_PORTAL_CRITTERS_ARRIVE" />
+				</value>
+				<value name="ESCAPE_TO_PORTAL_TIME_IS_OVER">
+					<String name="readableuni" value="ESCAPE_TO_PORTAL_TIME_IS_OVER" />
+				</value>
+				<value name="ESCAPE_TO_PORTAL_TIME_UNTIL_PORTAL_ACTIVATION">
+					<String name="readableuni" value="ESCAPE_TO_PORTAL_TIME_UNTIL_PORTAL_ACTIVATION" />
+				</value>
+				<value name="EV19_ATTDEF_CHAT_STATION">
+					<String name="readableuni" value="EV19_ATTDEF_CHAT_STATION" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_ALL_01">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_ALL_01" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_ALL_02">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_ALL_02" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_DEFENDERS_ARE_OVER_T0">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_DEFENDERS_ARE_OVER_T0" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_DEFENDERS_ARE_OVER_T1">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_DEFENDERS_ARE_OVER_T1" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_SHIELD_LOST_T0">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_SHIELD_LOST_T0" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_SHIELD_LOST_T1">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_SHIELD_LOST_T1" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_STATION_DESTROYED_T0">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_STATION_DESTROYED_T0" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_STATION_DESTROYED_T1">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_STATION_DESTROYED_T1" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_TIME_IS_OVER_T0">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_TIME_IS_OVER_T0" />
+				</value>
+				<value name="EV19_ATTDEF_CSM_TIME_IS_OVER_T1">
+					<String name="readableuni" value="EV19_ATTDEF_CSM_TIME_IS_OVER_T1" />
+				</value>
+				<value name="EV2020_NCB_RULES_@Scenario@">
+					<String name="readableuni" value="EV2020_NCB_RULES_@Scenario@" />
+				</value>
+				<value name="EV2020_RULES_PLAYER_GOT_KEY">
+					<String name="readableuni" value="EV2020_RULES_PLAYER_GOT_KEY" />
+				</value>
+				<value name="KOPECKS">
+					<String name="readableuni" value="KOPECKS" />
+				</value>
+				<value name="OP_01_01_MAIN_TASK_COMPLETED">
+					<String name="readableuni" value="OP_01_01_MAIN_TASK_COMPLETED" />
+				</value>
+				<value name="OP_01_01_MAIN_TASK_FAILED">
+					<String name="readableuni" value="OP_01_01_MAIN_TASK_FAILED" />
+				</value>
+				<value name="OP_01_01_MESSAGE_ANNIHILATION">
+					<String name="readableuni" value="OP_01_01_MESSAGE_ANNIHILATION" />
+				</value>
+				<value name="OP_01_01_MESSAGE_DEFENCE_AREA_TRUE">
+					<String name="readableuni" value="OP_01_01_MESSAGE_DEFENCE_AREA_TRUE" />
+				</value>
+				<value name="OP_01_01_MESSAGE_DEFENCE_AREA_TRUE2_TEMP">
+					<String name="readableuni" value="OP_01_01_MESSAGE_DEFENCE_AREA_TRUE2_TEMP" />
+				</value>
+				<value name="OP_01_01_MESSAGE_ENEMY_DAMAGE_TRANSPORT_START">
+					<String name="readableuni" value="OP_01_01_MESSAGE_ENEMY_DAMAGE_TRANSPORT_START" />
+				</value>
+				<value name="OP_01_01_MESSAGE_ENEMY_SHIPS_I_SEE">
+					<String name="readableuni" value="OP_01_01_MESSAGE_ENEMY_SHIPS_I_SEE" />
+				</value>
+				<value name="OP_01_01_MESSAGE_EXECUTE_ORDER">
+					<String name="readableuni" value="OP_01_01_MESSAGE_EXECUTE_ORDER" />
+				</value>
+				<value name="OP_01_01_MESSAGE_FIND_CONVOY">
+					<String name="readableuni" value="OP_01_01_MESSAGE_FIND_CONVOY" />
+				</value>
+				<value name="OP_01_01_MESSAGE_FOUND_ENEMY_CONVOY">
+					<String name="readableuni" value="OP_01_01_MESSAGE_FOUND_ENEMY_CONVOY" />
+				</value>
+				<value name="OP_01_01_MESSAGE_FOUND_ENEMY_SHIPS">
+					<String name="readableuni" value="OP_01_01_MESSAGE_FOUND_ENEMY_SHIPS" />
+				</value>
+				<value name="OP_01_01_MESSAGE_FOUND_WAVE2">
+					<String name="readableuni" value="OP_01_01_MESSAGE_FOUND_WAVE2" />
+				</value>
+				<value name="OP_01_01_MESSAGE_MOVE_RIDGE">
+					<String name="readableuni" value="OP_01_01_MESSAGE_MOVE_RIDGE" />
+				</value>
+				<value name="OP_01_01_MESSAGE_NEW_TASK_DEFENCE">
+					<String name="readableuni" value="OP_01_01_MESSAGE_NEW_TASK_DEFENCE" />
+				</value>
+				<value name="OP_01_01_MESSAGE_RUN">
+					<String name="readableuni" value="OP_01_01_MESSAGE_RUN" />
+				</value>
+				<value name="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_01">
+					<String name="readableuni" value="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_01" />
+				</value>
+				<value name="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_02">
+					<String name="readableuni" value="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_02" />
+				</value>
+				<value name="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_03">
+					<String name="readableuni" value="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_03" />
+				</value>
+				<value name="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_04">
+					<String name="readableuni" value="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_04" />
+				</value>
+				<value name="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_05">
+					<String name="readableuni" value="OP_01_02_ENEMY_REINFORCEMENT_TOP_SPAWN_05" />
+				</value>
+				<value name="OP_01_02_LEEROY_CHICKEN">
+					<String name="readableuni" value="OP_01_02_LEEROY_CHICKEN" />
+				</value>
+				<value name="OP_01_02_LEEROY_DIED">
+					<String name="readableuni" value="OP_01_02_LEEROY_DIED" />
+				</value>
+				<value name="OP_01_02_LEEROY_GETS_UGLY">
+					<String name="readableuni" value="OP_01_02_LEEROY_GETS_UGLY" />
+				</value>
+				<value name="OP_01_02_LEEROY_START_ESCAPE">
+					<String name="readableuni" value="OP_01_02_LEEROY_START_ESCAPE" />
+				</value>
+				<value name="OP_01_02_LEEROYY">
+					<String name="readableuni" value="OP_01_02_LEEROYY" />
+				</value>
+				<value name="OP_01_02_MAIN_TASK_COMPLETED">
+					<String name="readableuni" value="OP_01_02_MAIN_TASK_COMPLETED" />
+				</value>
+				<value name="OP_01_02_MAIN_TASK_FAILED">
+					<String name="readableuni" value="OP_01_02_MAIN_TASK_FAILED" />
+				</value>
+				<value name="OP_01_02_MAIN_TASK_PHRASE_1">
+					<String name="readableuni" value="OP_01_02_MAIN_TASK_PHRASE_1" />
+				</value>
+				<value name="OP_01_02_MAIN_TASK_PROGRESSED">
+					<String name="readableuni" value="OP_01_02_MAIN_TASK_PROGRESSED" />
+				</value>
+				<value name="OP_01_03_CHAT_011_CARRIER_GO_TO">
+					<String name="readableuni" value="OP_01_03_CHAT_011_CARRIER_GO_TO" />
+				</value>
+				<value name="OP_01_03_CHAT_012_CARRIER_GO_TO">
+					<String name="readableuni" value="OP_01_03_CHAT_012_CARRIER_GO_TO" />
+				</value>
+				<value name="OP_01_03_CHAT_013_RUNNER_GO">
+					<String name="readableuni" value="OP_01_03_CHAT_013_RUNNER_GO" />
+				</value>
+				<value name="OP_01_03_CHAT_014_CARRIER_GO_TWO">
+					<String name="readableuni" value="OP_01_03_CHAT_014_CARRIER_GO_TWO" />
+				</value>
+				<value name="OP_01_03_CHAT_015_CARRIER_GO_TREE">
+					<String name="readableuni" value="OP_01_03_CHAT_015_CARRIER_GO_TREE" />
+				</value>
+				<value name="OP_01_03_CHAT_016_WAYPAUSE">
+					<String name="readableuni" value="OP_01_03_CHAT_016_WAYPAUSE" />
+				</value>
+				<value name="OP_01_03_CHAT_017_WAYPAUSE_END">
+					<String name="readableuni" value="OP_01_03_CHAT_017_WAYPAUSE_END" />
+				</value>
+				<value name="OP_01_03_CHAT_018_MAIN_TASK_COMPLETE_CARRIER_SAVE">
+					<String name="readableuni" value="OP_01_03_CHAT_018_MAIN_TASK_COMPLETE_CARRIER_SAVE" />
+				</value>
+				<value name="OP_01_03_CHAT_019_REGEN_ON">
+					<String name="readableuni" value="OP_01_03_CHAT_019_REGEN_ON" />
+				</value>
+				<value name="OP_01_03_CHAT_020_FASTER_THAN_THE_WIND_BEGIN">
+					<String name="readableuni" value="OP_01_03_CHAT_020_FASTER_THAN_THE_WIND_BEGIN" />
+				</value>
+				<value name="OP_01_03_CHAT_021_JAPAN_RADIO">
+					<String name="readableuni" value="OP_01_03_CHAT_021_JAPAN_RADIO" />
+				</value>
+				<value name="OP_01_03_CHAT_022_PLANES_S">
+					<String name="readableuni" value="OP_01_03_CHAT_022_PLANES_S" />
+				</value>
+				<value name="OP_01_03_CHAT_023_BOOST">
+					<String name="readableuni" value="OP_01_03_CHAT_023_BOOST" />
+				</value>
+				<value name="OP_01_03_CHAT_@TRANSPORT_FAILED@">
+					<String name="readableuni" value="OP_01_03_CHAT_@TRANSPORT_FAILED@" />
+				</value>
+				<value name="OP_01_03_CHAT_@TRANSPORT_IS_DEAD@">
+					<String name="readableuni" value="OP_01_03_CHAT_@TRANSPORT_IS_DEAD@" />
+				</value>
+				<value name="OP_01_03_CHAT_@TRANSPORT_UNLOADED@">
+					<String name="readableuni" value="OP_01_03_CHAT_@TRANSPORT_UNLOADED@" />
+				</value>
+				<value name="OP_01_03_CSM_001_BRIEFING">
+					<String name="readableuni" value="OP_01_03_CSM_001_BRIEFING" />
+				</value>
+				<value name="OP_01_03_CSM_002_BRIEFING">
+					<String name="readableuni" value="OP_01_03_CSM_002_BRIEFING" />
+				</value>
+				<value name="OP_01_03_CSM_003_RUNNER_GO">
+					<String name="readableuni" value="OP_01_03_CSM_003_RUNNER_GO" />
+				</value>
+				<value name="OP_01_03_CSM_004_TIME_IS_OVER">
+					<String name="readableuni" value="OP_01_03_CSM_004_TIME_IS_OVER" />
+				</value>
+				<value name="OP_01_03_CSM_005_CARRIER_GO_TWO">
+					<String name="readableuni" value="OP_01_03_CSM_005_CARRIER_GO_TWO" />
+				</value>
+				<value name="OP_01_03_CSM_006_MAIN_TASK_FAIL_ALL_PLAYERS_DIE">
+					<String name="readableuni" value="OP_01_03_CSM_006_MAIN_TASK_FAIL_ALL_PLAYERS_DIE" />
+				</value>
+				<value name="OP_01_03_CSM_007_MAIN_TASK_COMPLETE_CARRIER_SAVE">
+					<String name="readableuni" value="OP_01_03_CSM_007_MAIN_TASK_COMPLETE_CARRIER_SAVE" />
+				</value>
+				<value name="OP_01_03_CSM_008_TASK_KILL_CARRIERS">
+					<String name="readableuni" value="OP_01_03_CSM_008_TASK_KILL_CARRIERS" />
+				</value>
+				<value name="OP_01_03_CSM_009_FIXERISDEAD">
+					<String name="readableuni" value="OP_01_03_CSM_009_FIXERISDEAD" />
+				</value>
+				<value name="OP_01_03_CSM_010_CARRIERISDEAD">
+					<String name="readableuni" value="OP_01_03_CSM_010_CARRIERISDEAD" />
+				</value>
+				<value name="OP_01_03_CSM_011_TASK_KILL_CARRIERS">
+					<String name="readableuni" value="OP_01_03_CSM_011_TASK_KILL_CARRIERS" />
+				</value>
+				<value name="OP_01_04_0021_WARNING_OF_TEAM">
+					<String name="readableuni" value="OP_01_04_0021_WARNING_OF_TEAM" />
+				</value>
+				<value name="OP_01_04_0021_WARNING_OF_TEAM_1">
+					<String name="readableuni" value="OP_01_04_0021_WARNING_OF_TEAM_1" />
+				</value>
+				<value name="OP_01_04_0022_WARNING_OF_TEAM">
+					<String name="readableuni" value="OP_01_04_0022_WARNING_OF_TEAM" />
+				</value>
+				<value name="OP_01_04_0023_WARNING_OF_TEAM">
+					<String name="readableuni" value="OP_01_04_0023_WARNING_OF_TEAM" />
+				</value>
+				<value name="OP_01_04_0024_WARNING_OF_TEAM">
+					<String name="readableuni" value="OP_01_04_0024_WARNING_OF_TEAM" />
+				</value>
+				<value name="OP_01_04_0031_DEFENSE_MAIN_TASK_SUCCESS">
+					<String name="readableuni" value="OP_01_04_0031_DEFENSE_MAIN_TASK_SUCCESS" />
+				</value>
+				<value name="OP_01_04_0032_DEFENSE_MAIN_TASK_SUCCESS">
+					<String name="readableuni" value="OP_01_04_0032_DEFENSE_MAIN_TASK_SUCCESS" />
+				</value>
+				<value name="OP_01_04_004_DEFENSE_MAIN_TASK_FAIL1">
+					<String name="readableuni" value="OP_01_04_004_DEFENSE_MAIN_TASK_FAIL1" />
+				</value>
+				<value name="OP_01_04_005_DEFENSE_MAIN_TASK_FAIL2">
+					<String name="readableuni" value="OP_01_04_005_DEFENSE_MAIN_TASK_FAIL2" />
+				</value>
+				<value name="OP_01_04_008_DEFENSE_SECONDARY_TASK_1_GOOD">
+					<String name="readableuni" value="OP_01_04_008_DEFENSE_SECONDARY_TASK_1_GOOD" />
+				</value>
+				<value name="OP_01_04_010_MESSAGE_DEAD_ENEMYS_FORTS">
+					<String name="readableuni" value="OP_01_04_010_MESSAGE_DEAD_ENEMYS_FORTS" />
+				</value>
+				<value name="OP_01_04_010_MESSAGE_DEAD_ENEMYS_FORTS_1">
+					<String name="readableuni" value="OP_01_04_010_MESSAGE_DEAD_ENEMYS_FORTS_1" />
+				</value>
+				<value name="OP_01_04_011_ENEMYS_AIRCR_GO_TO_BATTLE">
+					<String name="readableuni" value="OP_01_04_011_ENEMYS_AIRCR_GO_TO_BATTLE" />
+				</value>
+				<value name="OP_01_04_011_ENEMYS_AIRCR_GO_TO_BATTLE_1">
+					<String name="readableuni" value="OP_01_04_011_ENEMYS_AIRCR_GO_TO_BATTLE_1" />
+				</value>
+				<value name="OP_01_04_025_NEW_POST_NORTH_TEMP">
+					<String name="readableuni" value="OP_01_04_025_NEW_POST_NORTH_TEMP" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST1">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST1" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST2">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST2" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST3">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST3" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST4">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST4" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST5">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST5" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST6_TEMP">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST6_TEMP" />
+				</value>
+				<value name="OP_01_04_026_NEW_POST_WEST7">
+					<String name="readableuni" value="OP_01_04_026_NEW_POST_WEST7" />
+				</value>
+				<value name="OP_01_04_0291_ENEMYS_BOSS_1_TEMP">
+					<String name="readableuni" value="OP_01_04_0291_ENEMYS_BOSS_1_TEMP" />
+				</value>
+				<value name="OP_01_04_0291_ENEMYS_BOSS_2_TEMP">
+					<String name="readableuni" value="OP_01_04_0291_ENEMYS_BOSS_2_TEMP" />
+				</value>
+				<value name="OP_01_04_029_DEAD_ENEMYS_IZUMO">
+					<String name="readableuni" value="OP_01_04_029_DEAD_ENEMYS_IZUMO" />
+				</value>
+				<value name="OP_01_04_032_ENEMYS_AVIR_1_TEMP">
+					<String name="readableuni" value="OP_01_04_032_ENEMYS_AVIR_1_TEMP" />
+				</value>
+				<value name="OP_01_04_032_ENEMYS_AVIR_2_TEMP">
+					<String name="readableuni" value="OP_01_04_032_ENEMYS_AVIR_2_TEMP" />
+				</value>
+				<value name="OP_01_04_034_ALLY_AVIR_1_TEMP">
+					<String name="readableuni" value="OP_01_04_034_ALLY_AVIR_1_TEMP" />
+				</value>
+				<value name="OP_01_04_034_ALLY_AVIR_2_TEMP">
+					<String name="readableuni" value="OP_01_04_034_ALLY_AVIR_2_TEMP" />
+				</value>
+				<value name="OP_01_04_034_ALLY_AVIR_3_TEMP">
+					<String name="readableuni" value="OP_01_04_034_ALLY_AVIR_3_TEMP" />
+				</value>
+				<value name="OP_01_04_035_ATTACK_2">
+					<String name="readableuni" value="OP_01_04_035_ATTACK_2" />
+				</value>
+				<value name="OP_01_04_035_ATTACK_3">
+					<String name="readableuni" value="OP_01_04_035_ATTACK_3" />
+				</value>
+				<value name="OP_01_04_035_ATTACK_BIG">
+					<String name="readableuni" value="OP_01_04_035_ATTACK_BIG" />
+				</value>
+				<value name="OP_01_04_039_DEAD_ONE_OBJ_PORT_MESSAGE">
+					<String name="readableuni" value="OP_01_04_039_DEAD_ONE_OBJ_PORT_MESSAGE" />
+				</value>
+				<value name="OP_02_02_CHAT_001_RAPTOR_SPOTTED">
+					<String name="readableuni" value="OP_02_02_CHAT_001_RAPTOR_SPOTTED" />
+				</value>
+				<value name="OP_02_02_CHAT_002_YANKEES_DEAD">
+					<String name="readableuni" value="OP_02_02_CHAT_002_YANKEES_DEAD" />
+				</value>
+				<value name="OP_02_02_CHAT_003_REPAIRBASE_DISABLED">
+					<String name="readableuni" value="OP_02_02_CHAT_003_REPAIRBASE_DISABLED" />
+				</value>
+				<value name="OP_02_02_CHAT_004_FORTS_DESTROYED">
+					<String name="readableuni" value="OP_02_02_CHAT_004_FORTS_DESTROYED" />
+				</value>
+				<value name="OP_02_02_CHAT_005_RAPTOR_DEAD">
+					<String name="readableuni" value="OP_02_02_CHAT_005_RAPTOR_DEAD" />
+				</value>
+				<value name="OP_02_02_CHAT_006_BOMBERS_LOST">
+					<String name="readableuni" value="OP_02_02_CHAT_006_BOMBERS_LOST" />
+				</value>
+				<value name="OP_02_02_CHAT_007_BOMBERS_SUCCESS">
+					<String name="readableuni" value="OP_02_02_CHAT_007_BOMBERS_SUCCESS" />
+				</value>
+				<value name="OP_02_02_CHAT_008_FLAGMANS_SUCCESS">
+					<String name="readableuni" value="OP_02_02_CHAT_008_FLAGMANS_SUCCESS" />
+				</value>
+				<value name="OP_02_02_CHAT_009_FLAGMANS_FAIL">
+					<String name="readableuni" value="OP_02_02_CHAT_009_FLAGMANS_FAIL" />
+				</value>
+				<value name="OP_02_02_CHAT_010_SECOND_TASK_03_OPEN">
+					<String name="readableuni" value="OP_02_02_CHAT_010_SECOND_TASK_03_OPEN" />
+				</value>
+				<value name="OP_02_02_CSM_001_SQUADRONS_ARRIVED">
+					<String name="readableuni" value="OP_02_02_CSM_001_SQUADRONS_ARRIVED" />
+				</value>
+				<value name="OP_02_02_CSM_002_SQUADRONS_ARRIVED">
+					<String name="readableuni" value="OP_02_02_CSM_002_SQUADRONS_ARRIVED" />
+				</value>
+				<value name="OP_02_02_CSM_003_FREIGHTERS_LOADING">
+					<String name="readableuni" value="OP_02_02_CSM_003_FREIGHTERS_LOADING" />
+				</value>
+				<value name="OP_02_02_CSM_004_SECOND_TASK_02_OPEN">
+					<String name="readableuni" value="OP_02_02_CSM_004_SECOND_TASK_02_OPEN" />
+				</value>
+				<value name="OP_02_02_CSM_005_SECOND_TASK_02_ALARM">
+					<String name="readableuni" value="OP_02_02_CSM_005_SECOND_TASK_02_ALARM" />
+				</value>
+				<value name="OP_02_02_CSM_006_SECOND_TASK_04_OPEN">
+					<String name="readableuni" value="OP_02_02_CSM_006_SECOND_TASK_04_OPEN" />
+				</value>
+				<value name="OP_02_02_CSM_007_SECOND_TASK_04_STAY_ON_TARGET">
+					<String name="readableuni" value="OP_02_02_CSM_007_SECOND_TASK_04_STAY_ON_TARGET" />
+				</value>
+				<value name="OP_02_02_CSM_009_FINISH_FAIL_2">
+					<String name="readableuni" value="OP_02_02_CSM_009_FINISH_FAIL_2" />
+				</value>
+				<value name="OP_02_02_CSM_010_FINISH_SUCCESS">
+					<String name="readableuni" value="OP_02_02_CSM_010_FINISH_SUCCESS" />
+				</value>
+				<value name="OP_02_02_CSM_010_FINISH_SUCCESS_NO_BOTS">
+					<String name="readableuni" value="OP_02_02_CSM_010_FINISH_SUCCESS_NO_BOTS" />
+				</value>
+				<value name="OP_02_02_CSM_011_FINISH_FAIL_1">
+					<String name="readableuni" value="OP_02_02_CSM_011_FINISH_FAIL_1" />
+				</value>
+				<value name="OP_02_02_CSM_012_FINISH_FAIL_3">
+					<String name="readableuni" value="OP_02_02_CSM_012_FINISH_FAIL_3" />
+				</value>
+				<value name="OP_02_02_CSM_013_RAPTOR_HINT">
+					<String name="readableuni" value="OP_02_02_CSM_013_RAPTOR_HINT" />
+				</value>
+				<value name="OP_02_02_CSM_014_RED_ALERT">
+					<String name="readableuni" value="OP_02_02_CSM_014_RED_ALERT" />
+				</value>
+				<value name="OP_02_03_005_MAIN_MESSAGE_3">
+					<String name="readableuni" value="OP_02_03_005_MAIN_MESSAGE_3" />
+				</value>
+				<value name="OP_02_03_012_TARANSPORTS_IN_PORT">
+					<String name="readableuni" value="OP_02_03_012_TARANSPORTS_IN_PORT" />
+				</value>
+				<value name="OP_02_03_014_REMONT_1_ARRIVED">
+					<String name="readableuni" value="OP_02_03_014_REMONT_1_ARRIVED" />
+				</value>
+				<value name="OP_02_03_014_REMONT_1_END_ARRIVED">
+					<String name="readableuni" value="OP_02_03_014_REMONT_1_END_ARRIVED" />
+				</value>
+				<value name="OP_02_03_020_MESSAGE">
+					<String name="readableuni" value="OP_02_03_020_MESSAGE" />
+				</value>
+				<value name="OP_02_03_CHAT_002_SECOND_TASK_04_FAIL">
+					<String name="readableuni" value="OP_02_03_CHAT_002_SECOND_TASK_04_FAIL" />
+				</value>
+				<value name="OP_02_03_CHAT_005_SECOND_TASK_04_SUCCESS">
+					<String name="readableuni" value="OP_02_03_CHAT_005_SECOND_TASK_04_SUCCESS" />
+				</value>
+				<value name="OP_02_03_CSM_001_MAIN_MESSAGE_1">
+					<String name="readableuni" value="OP_02_03_CSM_001_MAIN_MESSAGE_1" />
+				</value>
+				<value name="OP_02_03_CSM_001_MAIN_MESSAGE_2">
+					<String name="readableuni" value="OP_02_03_CSM_001_MAIN_MESSAGE_2" />
+				</value>
+				<value name="OP_02_03_CSM_004_MAIN_MESSAGE_TASK_2">
+					<String name="readableuni" value="OP_02_03_CSM_004_MAIN_MESSAGE_TASK_2" />
+				</value>
+				<value name="OP_02_03_CSM_007_MAIN_MESSAGE_5">
+					<String name="readableuni" value="OP_02_03_CSM_007_MAIN_MESSAGE_5" />
+				</value>
+				<value name="OP_02_03_CSM_009_MAIN_MESSAGE_7">
+					<String name="readableuni" value="OP_02_03_CSM_009_MAIN_MESSAGE_7" />
+				</value>
+				<value name="OP_02_03_CSM_010_MAIN_MESSAGE_WIN">
+					<String name="readableuni" value="OP_02_03_CSM_010_MAIN_MESSAGE_WIN" />
+				</value>
+				<value name="OP_02_03_CSM_010_SECOND_TASK_04_HINT">
+					<String name="readableuni" value="OP_02_03_CSM_010_SECOND_TASK_04_HINT" />
+				</value>
+				<value name="OP_02_03_CSM_014_MAIN_MESSAGE_WIN">
+					<String name="readableuni" value="OP_02_03_CSM_014_MAIN_MESSAGE_WIN" />
+				</value>
+				<value name="OP_02_03_CSM_015_TASK_MESSAGE_1_AIRCR">
+					<String name="readableuni" value="OP_02_03_CSM_015_TASK_MESSAGE_1_AIRCR" />
+				</value>
+				<value name="OP_02_03_CSM_020_MESSAGE">
+					<String name="readableuni" value="OP_02_03_CSM_020_MESSAGE" />
+				</value>
+				<value name="OP_02_04_CHAT_IDIOT_1_REMARK_01">
+					<String name="readableuni" value="OP_02_04_CHAT_IDIOT_1_REMARK_01" />
+				</value>
+				<value name="OP_02_04_CHAT_IDIOT_1_REMARK_02">
+					<String name="readableuni" value="OP_02_04_CHAT_IDIOT_1_REMARK_02" />
+				</value>
+				<value name="OP_02_04_CHAT_IDIOT_1_REMARK_03">
+					<String name="readableuni" value="OP_02_04_CHAT_IDIOT_1_REMARK_03" />
+				</value>
+				<value name="OP_02_04_CHAT_SPEED_MAX">
+					<String name="readableuni" value="OP_02_04_CHAT_SPEED_MAX" />
+				</value>
+				<value name="OP_02_04_CHAT_SPEED_MIN">
+					<String name="readableuni" value="OP_02_04_CHAT_SPEED_MIN" />
+				</value>
+				<value name="OP_02_04_CSM_ACHTUNG_MINEN">
+					<String name="readableuni" value="OP_02_04_CSM_ACHTUNG_MINEN" />
+				</value>
+				<value name="OP_02_04_CSM_AIR_COEFFICIENT">
+					<String name="readableuni" value="OP_02_04_CSM_AIR_COEFFICIENT" />
+				</value>
+				<value name="OP_02_04_CSM_AIRSTRIKE_PENALTY_WARNING">
+					<String name="readableuni" value="OP_02_04_CSM_AIRSTRIKE_PENALTY_WARNING" />
+				</value>
+				<value name="OP_02_04_CSM_ALL_PLAYERS_DIE">
+					<String name="readableuni" value="OP_02_04_CSM_ALL_PLAYERS_DIE" />
+				</value>
+				<value name="OP_02_04_CSM_ANTI_AIR_HINT">
+					<String name="readableuni" value="OP_02_04_CSM_ANTI_AIR_HINT" />
+				</value>
+				<value name="OP_02_04_CSM_DUNKIRK_LOADING">
+					<String name="readableuni" value="OP_02_04_CSM_DUNKIRK_LOADING" />
+				</value>
+				<value name="OP_02_04_CSM_FINISH_FAIL">
+					<String name="readableuni" value="OP_02_04_CSM_FINISH_FAIL" />
+				</value>
+				<value name="OP_02_04_CSM_FINISH_SUCCESS">
+					<String name="readableuni" value="OP_02_04_CSM_FINISH_SUCCESS" />
+				</value>
+				<value name="OP_02_04_CSM_HELP_ME_OB1">
+					<String name="readableuni" value="OP_02_04_CSM_HELP_ME_OB1" />
+				</value>
+				<value name="OP_02_04_CSM_MAIN_TASK_PHRASE_1">
+					<String name="readableuni" value="OP_02_04_CSM_MAIN_TASK_PHRASE_1" />
+				</value>
+				<value name="OP_02_04_CSM_MAIN_TASK_PHRASE_2">
+					<String name="readableuni" value="OP_02_04_CSM_MAIN_TASK_PHRASE_2" />
+				</value>
+				<value name="OP_02_04_PHASE_01_CSM_AIRSCOUT_DETECTED">
+					<String name="readableuni" value="OP_02_04_PHASE_01_CSM_AIRSCOUT_DETECTED" />
+				</value>
+				<value name="OP_02_04_PHASE_02_CSM_AIRSCOUT_DETECTED">
+					<String name="readableuni" value="OP_02_04_PHASE_02_CSM_AIRSCOUT_DETECTED" />
+				</value>
+				<value name="OP_02_04_PHASE_03_CSM_SCHNELLBOOT_DETECTED">
+					<String name="readableuni" value="OP_02_04_PHASE_03_CSM_SCHNELLBOOT_DETECTED" />
+				</value>
+				<value name="OP_02_04_PHASE_04_CHAT_CO">
+					<String name="readableuni" value="OP_02_04_PHASE_04_CHAT_CO" />
+				</value>
+				<value name="OP_02_04_PHASE_06_CHAT_AHTUNG">
+					<String name="readableuni" value="OP_02_04_PHASE_06_CHAT_AHTUNG" />
+				</value>
+				<value name="OP_02_04_PHASE_06_CSM_JAMES_W">
+					<String name="readableuni" value="OP_02_04_PHASE_06_CSM_JAMES_W" />
+				</value>
+				<value name="OP_09_AA_DONE">
+					<String name="readableuni" value="OP_09_AA_DONE" />
+				</value>
+				<value name="OP_09_AA_READY">
+					<String name="readableuni" value="OP_09_AA_READY" />
+				</value>
+				<value name="OP_09_AA_READY_FAIL">
+					<String name="readableuni" value="OP_09_AA_READY_FAIL" />
+				</value>
+				<value name="OP_09_AA_READY_SUCCESS">
+					<String name="readableuni" value="OP_09_AA_READY_SUCCESS" />
+				</value>
+				<value name="OP_09_AREAHEAL_OFF_START_ENGINE">
+					<String name="readableuni" value="OP_09_AREAHEAL_OFF_START_ENGINE" />
+				</value>
+				<value name="OP_09_AREAHEAL_ON_STOP_ENGINE">
+					<String name="readableuni" value="OP_09_AREAHEAL_ON_STOP_ENGINE" />
+				</value>
+				<value name="OP_09_BOSS_HERE">
+					<String name="readableuni" value="OP_09_BOSS_HERE" />
+				</value>
+				<value name="OP_09_CSM_ANTI_AIR_HINT">
+					<String name="readableuni" value="OP_09_CSM_ANTI_AIR_HINT" />
+				</value>
+				<value name="OP_09_ENEMY_IS_COMING">
+					<String name="readableuni" value="OP_09_ENEMY_IS_COMING" />
+				</value>
+				<value name="OP_09_FINAL_GSM">
+					<String name="readableuni" value="OP_09_FINAL_GSM" />
+				</value>
+				<value name="OP_09_FIRST_WAVE_READY">
+					<String name="readableuni" value="OP_09_FIRST_WAVE_READY" />
+				</value>
+				<value name="OP_09_KILL_ALL_ENEMIES_TASK_END_S">
+					<String name="readableuni" value="OP_09_KILL_ALL_ENEMIES_TASK_END_S" />
+				</value>
+				<value name="OP_09_MAIN_TASK_BRIEFING">
+					<String name="readableuni" value="OP_09_MAIN_TASK_BRIEFING" />
+				</value>
+				<value name="OP_09_MAIN_TASK_TASK_END_F">
+					<String name="readableuni" value="OP_09_MAIN_TASK_TASK_END_F" />
+				</value>
+				<value name="OP_09_MAIN_TASK_TASK_END_S">
+					<String name="readableuni" value="OP_09_MAIN_TASK_TASK_END_S" />
+				</value>
+				<value name="OP_09_MAIN_TASK_TASK_WILL_END_F">
+					<String name="readableuni" value="OP_09_MAIN_TASK_TASK_WILL_END_F" />
+				</value>
+				<value name="OP_09_PAYLOAD_HALF_HEALTH_TASK_END_F">
+					<String name="readableuni" value="OP_09_PAYLOAD_HALF_HEALTH_TASK_END_F" />
+				</value>
+				<value name="OP_09_START_CYCLONE">
+					<String name="readableuni" value="OP_09_START_CYCLONE" />
+				</value>
+				<value name="OP_09_THIRD_READY">
+					<String name="readableuni" value="OP_09_THIRD_READY" />
+				</value>
+				<value name="OP_09_THIRD_READY_GSM">
+					<String name="readableuni" value="OP_09_THIRD_READY_GSM" />
+				</value>
+				<value name="OP_09_WEATHER_FIRE">
+					<String name="readableuni" value="OP_09_WEATHER_FIRE" />
+				</value>
+				<value name="OP_10_CHAT_001_HI">
+					<String name="readableuni" value="OP_10_CHAT_001_HI" />
+				</value>
+				<value name="OP_10_CHAT_002_HINT_LIGHT">
+					<String name="readableuni" value="OP_10_CHAT_002_HINT_LIGHT" />
+				</value>
+				<value name="OP_10_CHAT_003_HINT_RADAR">
+					<String name="readableuni" value="OP_10_CHAT_003_HINT_RADAR" />
+				</value>
+				<value name="OP_10_CHAT_004_ST01_SUCCESS">
+					<String name="readableuni" value="OP_10_CHAT_004_ST01_SUCCESS" />
+				</value>
+				<value name="OP_10_CHAT_005_GO_HOME">
+					<String name="readableuni" value="OP_10_CHAT_005_GO_HOME" />
+				</value>
+				<value name="OP_10_CHAT_006_3RD_MARINE_REGIMENT_IS_DEAD">
+					<String name="readableuni" value="OP_10_CHAT_006_3RD_MARINE_REGIMENT_IS_DEAD" />
+				</value>
+				<value name="OP_10_CHAT_007_9RD_MARINE_REGIMENT_IS_DEAD">
+					<String name="readableuni" value="OP_10_CHAT_007_9RD_MARINE_REGIMENT_IS_DEAD" />
+				</value>
+				<value name="OP_10_CHAT_008_MAIN_TASK_1_COMPLETE">
+					<String name="readableuni" value="OP_10_CHAT_008_MAIN_TASK_1_COMPLETE" />
+				</value>
+				<value name="OP_10_CHAT_009_CARRIERS_I">
+					<String name="readableuni" value="OP_10_CHAT_009_CARRIERS_I" />
+				</value>
+				<value name="OP_10_CHAT_010_CARRIERS_II">
+					<String name="readableuni" value="OP_10_CHAT_010_CARRIERS_II" />
+				</value>
+				<value name="OP_10_CHAT_011_ENEMY_RETREAT">
+					<String name="readableuni" value="OP_10_CHAT_011_ENEMY_RETREAT" />
+				</value>
+				<value name="OP_10_CHAT_012_REPAIR_START">
+					<String name="readableuni" value="OP_10_CHAT_012_REPAIR_START" />
+				</value>
+				<value name="OP_10_CSM_001_BRIEF_1">
+					<String name="readableuni" value="OP_10_CSM_001_BRIEF_1" />
+				</value>
+				<value name="OP_10_CSM_002_HINT_LIGHT">
+					<String name="readableuni" value="OP_10_CSM_002_HINT_LIGHT" />
+				</value>
+				<value name="OP_10_CSM_003_SAVE_USS_DM">
+					<String name="readableuni" value="OP_10_CSM_003_SAVE_USS_DM" />
+				</value>
+				<value name="OP_10_CSM_004_WIN_II">
+					<String name="readableuni" value="OP_10_CSM_004_WIN_II" />
+				</value>
+				<value name="OP_10_CSM_006_MAIN_TASK_3">
+					<String name="readableuni" value="OP_10_CSM_006_MAIN_TASK_3" />
+				</value>
+				<value name="OP_10_CSM_007_KILL_AIRPLANES">
+					<String name="readableuni" value="OP_10_CSM_007_KILL_AIRPLANES" />
+				</value>
+				<value name="OP_10_CSM_008_MAIN_TASK_4">
+					<String name="readableuni" value="OP_10_CSM_008_MAIN_TASK_4" />
+				</value>
+				<value name="OP_10_CSM_009_KILL_DA_BOSS">
+					<String name="readableuni" value="OP_10_CSM_009_KILL_DA_BOSS" />
+				</value>
+				<value name="OP_10_CSM_010_FAIL">
+					<String name="readableuni" value="OP_10_CSM_010_FAIL" />
+				</value>
+				<value name="OP_10_CSM_011_FAIL2">
+					<String name="readableuni" value="OP_10_CSM_011_FAIL2" />
+				</value>
+				<value name="OP_10_CSM_012_WIN">
+					<String name="readableuni" value="OP_10_CSM_012_WIN" />
+				</value>
+				<value name="OP_10_CSM_013_HINT_RADAR">
+					<String name="readableuni" value="OP_10_CSM_013_HINT_RADAR" />
+				</value>
+				<value name="OP_10_CSM_014_HINT_MORNING">
+					<String name="readableuni" value="OP_10_CSM_014_HINT_MORNING" />
+				</value>
+				<value name="OP_11_KILL_BATTLESHIP_TASK_END_S">
+					<String name="readableuni" value="OP_11_KILL_BATTLESHIP_TASK_END_S" />
+				</value>
+				<value name="OP_11_KILL_CONVOY_TASK_END_S">
+					<String name="readableuni" value="OP_11_KILL_CONVOY_TASK_END_S" />
+				</value>
+				<value name="OP_11_KILL_DESTROYERS_TASK_END_S">
+					<String name="readableuni" value="OP_11_KILL_DESTROYERS_TASK_END_S" />
+				</value>
+				<value name="OP_11_MAIN_TASK_BRIEFING">
+					<String name="readableuni" value="OP_11_MAIN_TASK_BRIEFING" />
+				</value>
+				<value name="OP_11_MAIN_TASK_TASK_END_S">
+					<String name="readableuni" value="OP_11_MAIN_TASK_TASK_END_S" />
+				</value>
+				<value name="OP_11_MAIN_TASK_TASK_WILL_END_F">
+					<String name="readableuni" value="OP_11_MAIN_TASK_TASK_WILL_END_F" />
+				</value>
+				<value name="PCVO006_EV_HL_17_CHM_001">
+					<String name="readableuni" value="PCVO006_EV_HL_17_CHM_001" />
+				</value>
+				<value name="PCVO006_EV_HL_17_CHM_002">
+					<String name="readableuni" value="PCVO006_EV_HL_17_CHM_002" />
+				</value>
+				<value name="PCVO006_EV_HL_17_CHM_004">
+					<String name="readableuni" value="PCVO006_EV_HL_17_CHM_004" />
+				</value>
+				<value name="PCVO006_EV_HL_17_CHM_005">
+					<String name="readableuni" value="PCVO006_EV_HL_17_CHM_005" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL2">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL2" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL3">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_FIN_FAIL3" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_FIN_SUCCESS">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_FIN_SUCCESS" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_NOSFERATU_HINT">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_NOSFERATU_HINT" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_RASPUTIN_SPAWN">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_RASPUTIN_SPAWN" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_START_FILTHDANGER">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_START_FILTHDANGER" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_START_PORTAL_PROTECT_TOWERS">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_START_PORTAL_PROTECT_TOWERS" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_START_PORTAL_PROTECT_TRANSILVANIA">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_START_PORTAL_PROTECT_TRANSILVANIA" />
+				</value>
+				<value name="PCVO006_EV_HL_17_MESSAGE_TOWERS_ALERT">
+					<String name="readableuni" value="PCVO006_EV_HL_17_MESSAGE_TOWERS_ALERT" />
+				</value>
+				<value name="PCVO006_EV_PVP_18_MESSAGE_HINT1">
+					<String name="readableuni" value="PCVO006_EV_PVP_18_MESSAGE_HINT1" />
+				</value>
+				<value name="PCVO006_EV_PVP_18_MESSAGE_HINT2">
+					<String name="readableuni" value="PCVO006_EV_PVP_18_MESSAGE_HINT2" />
+				</value>
+				<value name="PCVO006_EV_PVP_18_MESSAGE_HINT3">
+					<String name="readableuni" value="PCVO006_EV_PVP_18_MESSAGE_HINT3" />
+				</value>
+				<value name="PCVO006_EV_PVP_18_MESSAGE_HINT4">
+					<String name="readableuni" value="PCVO006_EV_PVP_18_MESSAGE_HINT4" />
+				</value>
+				<value name="PCVO006_EV_PVP_18_MESSAGE_HINT5">
+					<String name="readableuni" value="PCVO006_EV_PVP_18_MESSAGE_HINT5" />
+				</value>
+				<value name="PCVO012_EV_HL_18_BRIEFING_1">
+					<String name="readableuni" value="PCVO012_EV_HL_18_BRIEFING_1" />
+				</value>
+				<value name="PCVO012_EV_HL_18_CHAT_001">
+					<String name="readableuni" value="PCVO012_EV_HL_18_CHAT_001" />
+				</value>
+				<value name="PCVO012_EV_HL_18_CHAT_002">
+					<String name="readableuni" value="PCVO012_EV_HL_18_CHAT_002" />
+				</value>
+				<value name="PCVO012_EV_HL_18_CHAT_003">
+					<String name="readableuni" value="PCVO012_EV_HL_18_CHAT_003" />
+				</value>
+				<value name="PCVO012_EV_HL_18_FAST_KILL">
+					<String name="readableuni" value="PCVO012_EV_HL_18_FAST_KILL" />
+				</value>
+				<value name="PCVO012_EV_HL_18_HINT_2">
+					<String name="readableuni" value="PCVO012_EV_HL_18_HINT_2" />
+				</value>
+				<value name="PCVO012_EV_HL_18_MESSAGE_ALARM_BALLISTA">
+					<String name="readableuni" value="PCVO012_EV_HL_18_MESSAGE_ALARM_BALLISTA" />
+				</value>
+				<value name="PCVO012_EV_HL_18_MESSAGE_ALARM_DESTROYER">
+					<String name="readableuni" value="PCVO012_EV_HL_18_MESSAGE_ALARM_DESTROYER" />
+				</value>
+				<value name="PCVO012_EV_HL_18_MESSAGE_FIN_FAIL">
+					<String name="readableuni" value="PCVO012_EV_HL_18_MESSAGE_FIN_FAIL" />
+				</value>
+				<value name="PCVO012_EV_HL_18_MESSAGE_FIN_SUCCESS">
+					<String name="readableuni" value="PCVO012_EV_HL_18_MESSAGE_FIN_SUCCESS" />
+				</value>
+				<value name="PCVO012_EV_HL_18_MESSAGE_RASPUTIN_HINT">
+					<String name="readableuni" value="PCVO012_EV_HL_18_MESSAGE_RASPUTIN_HINT" />
+				</value>
+				<value name="PCVO012_EV_HL_18_SEEBUILDING">
+					<String name="readableuni" value="PCVO012_EV_HL_18_SEEBUILDING" />
+				</value>
+				<value name="PCVO012_EV_HL_18_SEEBUILDING_2">
+					<String name="readableuni" value="PCVO012_EV_HL_18_SEEBUILDING_2" />
+				</value>
+				<value name="PVP_CONTROLPOINTENABLE">
+					<String name="readableuni" value="PVP_CONTROLPOINTENABLE" />
+				</value>
+				<value name="PVP_CONTROLPOINTENABLESOON">
+					<String name="readableuni" value="PVP_CONTROLPOINTENABLESOON" />
+				</value>
+				<value name="STATION_SHIELD_ON">
+					<String name="readableuni" value="STATION_SHIELD_ON" />
+				</value>
+				<value name="TOPREDO_SOUP">
+					<String name="readableuni" value="TOPREDO_SOUP" />
+				</value>
+				<value name="TORPEDO">
+					<String name="readableuni" value="TORPEDO" />
+				</value>
+				<value name="TRIPLE_KILL">
+					<String name="readableuni" value="TRIPLE_KILL" />
+				</value>
+			</values>
+			<references />
+		</state>
+		<state name="Vehicle_Death_Type">
+			<String name="readableru" value="Причины уничтожения" />
+			<String name="readableen" value="Death causes" />
+			<references>
+				<event name="Play_Damage_Death" />
+				<event name="Stop_Damage_Death" />
+			</references>
+			<values>
+				<value name="ATBA" />
+				<value name="Bomb">
+					<String name="readableru" value="Бомба" />
+					<String name="readableen" value="Boiler bomb" />
+				</value>
+				<value name="Burning">
+					<String name="readableru" value="Пожар" />
+					<String name="readableen" value="Burning" />
+				</value>
+				<value name="Default">
+					<String name="readableru" value="Не задонатил" />
+					<String name="readableen" value="No donation" />
+				</value>
+				<value name="DepthCharge" />
+				<value name="Detonate">
+					<String name="readableru" value="Взрыв" />
+					<String name="readableen" value="Detonation" />
+				</value>
+				<value name="Fel" />
+				<value name="Flood">
+					<String name="readableru" value="Затопление" />
+					<String name="readableen" value="Flooding" />
+				</value>
+				<value name="Health">
+					<String name="readableru" value="Hp кончились" />
+					<String name="readableen" value="Lost hp" />
+				</value>
+				<value name="LASER" />
+				<value name="Match" />
+				<value name="Portal" />
+				<value name="RAM">
+					<String name="readableru" value="Врезался" />
+					<String name="readableen" value="Rammed" />
+				</value>
+				<value name="Rocket" />
+				<value name="SECTOR_WAVE" />
+				<value name="Shell_AP">
+					<String name="readableru" value="Бронебойный снаряд" />
+					<String name="readableen" value="Ap shell" />
+				</value>
+				<value name="Shell_CS" />
+				<value name="Shell_HE">
+					<String name="readableru" value="Зажигательный снаряд" />
+					<String name="readableen" value="He shell" />
+				</value>
+				<value name="SkipBomb" />
+				<value name="Timer" />
+				<value name="Torpedo">
+					<String name="readableru" value="Большая торпеда" />
+					<String name="readableen" value="Big torpedo on a stick" />
+				</value>
+			</values>
+		</state>
+		<state name="Vehicle_Health">
+			<String name="readableru" value="Healthpoints" />
+			<references />
+			<values>
+				<value name="None" />
+				<value name="Vehicle_Health_Alive">
+					<String name="readableru" value="Жив" />
+					<String name="readableen" value="Alive" />
+				</value>
+				<value name="Vehicle_Health_Default">
+					<String name="readableru" value="Кот шредингера" />
+					<String name="readableen" value="None" />
+				</value>
+				<value name="Vehicle_Health_Killed">
+					<String name="readableru" value="Уничтожен" />
+					<String name="readableen" value="Destroyed" />
+				</value>
+			</values>
+		</state>
+		<state name="Vehicle_Telegraph_Sound">
+			<String name="readableru" value="Положение телеграфа" />
+			<String name="readableen" value="Telegraph states" />
+			<references>
+				<event name="Play_UI_Telegraph" />
+			</references>
+			<values>
+				<value name="DeepChange" />
+				<value name="Full">
+					<String name="readableru" value="Полный вперед!" />
+					<String name="readableen" value="Full speed ahead!" />
+				</value>
+				<value name="Full_back">
+					<String name="readableru" value="Полный назад!" />
+					<String name="readableen" value="Full back!" />
+				</value>
+				<value name="Side">
+					<String name="readableru" value="Поворот штурвала" />
+					<String name="readableen" value="Wheel turning" />
+				</value>
+				<value name="Speed1">
+					<String name="readableru" value="1/4" />
+					<String name="readableen" value="1/4" />
+				</value>
+				<value name="Speed2">
+					<String name="readableru" value="1/2" />
+					<String name="readableen" value="1/2" />
+				</value>
+				<value name="Speed3">
+					<String name="readableru" value="3/4" />
+					<String name="readableen" value="3/4" />
+				</value>
+				<value name="Stop">
+					<String name="readableru" value="Стоп" />
+					<String name="readableen" value="Stop" />
+				</value>
+			</values>
+		</state>
+		<state name="Vehicle_Type">
+			<String name="readableru" value="Тип техники" />
+			<String name="readableen" value="Vehicle type" />
+			<references />
+			<values>
+				<value name="AirCarrier">
+					<String name="readableru" value="Авианосец" />
+					<String name="readableen" value="Aircraft carrier" />
+				</value>
+				<value name="Auxiliary" />
+				<value name="Battleship">
+					<String name="readableru" value="Линкор" />
+					<String name="readableen" value="Battleship" />
+				</value>
+				<value name="Cruiser">
+					<String name="readableru" value="Крейсер" />
+					<String name="readableen" value="Cruiser" />
+				</value>
+				<value name="Destroyer">
+					<String name="readableru" value="Эсминец" />
+					<String name="readableen" value="Destroyer" />
+				</value>
+				<value name="None" />
+				<value name="Submarine">
+					<String name="readableru" value="Подводная лодка" />
+					<String name="readableen" value="Submarine" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Autopilot">
+			<String name="readableru" value="Состояние автопилота" />
+			<String name="readableen" value="Autopilot" />
+			<references>
+				<event name="Play_VO_Autopilot" />
+			</references>
+			<values>
+				<value name="VO_Autopilot_Checkpoint">
+					<String name="readableru" value="Сообщение автопилота (пройдена контрольная точка)" />
+					<String name="readableen" value="Checkpoint" />
+				</value>
+				<value name="VO_Autopilot_End">
+					<String name="readableru" value="Сообщение автопилота (достигнут конец маршрута)" />
+					<String name="readableen" value="Destination" />
+				</value>
+				<value name="VO_Autopilot_Off">
+					<String name="readableru" value="Сообщение автопилота (автопилот выключен)" />
+					<String name="readableen" value="Disabled" />
+				</value>
+				<value name="VO_Autopilot_On">
+					<String name="readableru" value="Сообщение автопилота (автопилот включен)" />
+					<String name="readableen" value="Enabled" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Damage">
+			<String name="readableru" value="Повреждения и затопления" />
+			<String name="readableen" value="Alarms" />
+			<references>
+				<event name="Play_VO_Ship_Avatar_Flooding" />
+			</references>
+			<values>
+				<value name="VO_Damage_Critical_Damage">
+					<String name="readableru" value="Критические повреждения!" />
+					<String name="readableen" value="Critical damage" />
+				</value>
+				<value name="VO_Damage_Critical_Flooding">
+					<String name="readableru" value="Критические затопления!!" />
+					<String name="readableen" value="Critical_flooding" />
+				</value>
+				<value name="VO_Damage_Heavy_Damage">
+					<String name="readableru" value="Тяжелые повреждения!" />
+					<String name="readableen" value="Heavy damage!" />
+				</value>
+				<value name="VO_Damage_Heavy_Flooding">
+					<String name="readableru" value="Обширные затопления!" />
+					<String name="readableen" value="Heavy flooding" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Domination">
+			<String name="readableru" value="Состояния боя и захват точек" />
+			<String name="readableen" value="Domination" />
+			<references>
+				<event name="Play_VO_Domination_Status" />
+			</references>
+			<values>
+				<value name="VO_Domination_Advantage_Ally">
+					<String name="readableru" value="Наша команда получила преимущество!" />
+					<String name="readableen" value="Ally_advantage" />
+				</value>
+				<value name="VO_Domination_Advantage_Enemy">
+					<String name="readableru" value="Команда противника получила преимущество!" />
+					<String name="readableen" value="Enemy_advantage" />
+				</value>
+				<value name="VO_Domination_Close_Win_Ally">
+					<String name="readableru" value="Наша команда близка к победе!" />
+					<String name="readableen" value="Ally_close_win" />
+				</value>
+				<value name="VO_Domination_Close_Win_Enemy">
+					<String name="readableru" value="Команда противника близка к победе!" />
+					<String name="readableen" value="Enemy_close_win" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Domination_Spectator">
+			<String name="readableru" value="Состояния боя и захват точек (киберспорт)" />
+			<String name="readableen" value="Domination status for cybersport" />
+			<references>
+				<event name="Play_VO_Domination_Spectator" />
+			</references>
+			<values>
+				<value name="VO_Domination_Spectator_Advantage_Blue">
+					<String name="readableru" value="Команда голубых доминирует!" />
+					<String name="readableen" value="Blue team advantage" />
+				</value>
+				<value name="VO_Domination_Spectator_Advantage_Red">
+					<String name="readableru" value="Команда красных доминирует!" />
+					<String name="readableen" value="Red team advantage" />
+				</value>
+				<value name="VO_Domination_Spectator_Close_Win_Blue">
+					<String name="readableru" value="Команда голубых близка к победе!" />
+					<String name="readableen" value="Blue team is about to win" />
+				</value>
+				<value name="VO_Domination_Spectator_Close_Win_Red">
+					<String name="readableru" value="Команда красных близка к победе!" />
+					<String name="readableen" value="Red team is about to win" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Lock_Weapon">
+			<String name="readableru" value="Фиксация наведения" />
+			<String name="readableen" value="Fixating the angle/sector" />
+			<references>
+				<event name="Play_UI_Lock_Weapon" />
+			</references>
+			<values>
+				<value name="VO_Lock_Weapon_ATBA_Left" />
+				<value name="VO_Lock_Weapon_ATBA_Right" />
+				<value name="VO_Lock_Weapon_MG">
+					<String name="readableru" value="Орудия гк зафиксированы" />
+					<String name="readableen" value="Main gun locked on sector" />
+				</value>
+				<value name="VO_Lock_Weapon_MG_Off">
+					<String name="readableru" value="Снятие фиксации орудий гк" />
+					<String name="readableen" value="Main gun lock off" />
+				</value>
+				<value name="VO_Lock_Weapon_Off" />
+				<value name="VO_Lock_Weapon_On" />
+				<value name="VO_Lock_Weapon_TA">
+					<String name="readableru" value="Торпедный аппарат зафиксирован" />
+					<String name="readableen" value="Torpedo tubes locked on sector" />
+				</value>
+				<value name="VO_Lock_Weapon_TA_Off">
+					<String name="readableru" value="Снятие фиксации торпедного аппарата" />
+					<String name="readableen" value="Torpedo tubes lock off" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Plane_ID">
+			<String name="readableru" value="Позывной эскадрильи" />
+			<String name="readableen" value="Squadron number" />
+			<references>
+				<event name="Play_VO_Pilots_ID" />
+			</references>
+			<values>
+				<value name="id1">
+					<String name="readableru" value="Первый" />
+					<String name="readableen" value="1" />
+				</value>
+				<value name="id2">
+					<String name="readableru" value="Второй" />
+					<String name="readableen" value="2" />
+				</value>
+				<value name="id3">
+					<String name="readableru" value="Третий" />
+					<String name="readableen" value="3" />
+				</value>
+				<value name="id4">
+					<String name="readableru" value="Четвертый" />
+					<String name="readableen" value="4" />
+				</value>
+				<value name="id5">
+					<String name="readableru" value="Пятый" />
+					<String name="readableen" value="5" />
+				</value>
+				<value name="id6">
+					<String name="readableru" value="Шестой" />
+					<String name="readableen" value="6" />
+				</value>
+				<value name="id7">
+					<String name="readableru" value="Седьмой" />
+					<String name="readableen" value="7" />
+				</value>
+				<value name="id8">
+					<String name="readableru" value="Восьмой" />
+					<String name="readableen" value="8" />
+				</value>
+				<value name="id9">
+					<String name="readableru" value="Девятый" />
+					<String name="readableen" value="9" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Plane_Status">
+			<String name="readableru" value="Статус эскадрильи" />
+			<String name="readableen" value="Plane status" />
+			<references>
+				<event name="Play_VO_Pilots_Status" />
+			</references>
+			<values>
+				<value name="AtPos">
+					<String name="readableru" value="Достиг места назначения, жду приказов" />
+					<String name="readableen" value="Atpos" />
+				</value>
+				<value name="Attack">
+					<String name="readableru" value="Принял приказ на атаку" />
+					<String name="readableen" value="Accepted attack order" />
+				</value>
+				<value name="ATTACK_CANCELLED" />
+				<value name="ATTACK_ENDED" />
+				<value name="ATTACK_STARTED">
+					<String name="readableru" value="Атакую" />
+					<String name="readableen" value="Engage" />
+				</value>
+				<value name="Destroy">
+					<String name="readableru" value="Меня уничтожили" />
+					<String name="readableen" value="Destroy" />
+				</value>
+				<value name="LANDING_INITIATED">
+					<String name="readableru" value="Иду на базу" />
+					<String name="readableen" value="Land" />
+				</value>
+				<value name="Ready">
+					<String name="readableru" value="Готов" />
+					<String name="readableen" value="Ready" />
+				</value>
+				<value name="TAKEOFF_ENDED">
+					<String name="readableru" value="Произвёл взлёт" />
+					<String name="readableen" value="Airborne" />
+				</value>
+				<value name="TangoDown">
+					<String name="readableru" value="Цель уничтожена" />
+					<String name="readableen" value="Tangodown" />
+				</value>
+				<value name="UNDER_ATTACK">
+					<String name="readableru" value="Атакован" />
+					<String name="readableen" value="Under_attack" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Prompt_ID">
+			<String name="readableru" value="Подсказки в порту" />
+			<String name="readableen" value="Port hints" />
+			<references>
+				<event name="Play_VO_Prompt" />
+			</references>
+			<values>
+				<value name="VO_Prompt_ID_01">
+					<String name="readableru" value="" />
+				</value>
+				<value name="VO_Prompt_ID_02">
+					<String name="readableru" value="" />
+				</value>
+				<value name="VO_Prompt_ID_03">
+					<String name="readableru" value="Вам открыт первый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_04">
+					<String name="readableru" value="Вам открыт второй уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_05">
+					<String name="readableru" value="Вам открыт третий уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_06">
+					<String name="readableru" value="Вам открыт четвертый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_07">
+					<String name="readableru" value="Вам открыт пятый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_08">
+					<String name="readableru" value="Вам открыт шестой уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_09">
+					<String name="readableru" value="Вам открыт седьмой уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_10">
+					<String name="readableru" value="Вам открыт восьмой уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_11">
+					<String name="readableru" value="Вам открыт девятый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_12">
+					<String name="readableru" value="Вам открыт десятый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_13">
+					<String name="readableru" value="Вам открыт одиннадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_14">
+					<String name="readableru" value="Вам открыт двеннадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_15">
+					<String name="readableru" value="Вам открыт триннадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_16">
+					<String name="readableru" value="Вам открыт четырнадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_17">
+					<String name="readableru" value="Вам открыт пятнадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_18">
+					<String name="readableru" value="(не записано) вам открыт шеснадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_19">
+					<String name="readableru" value="(не записано) вам открыт семнадцатый уровень доступа." />
+				</value>
+				<value name="VO_Prompt_ID_20">
+					<String name="readableru" value="Следующий уровень доступа откроется через 3 боя" />
+				</value>
+				<value name="VO_Prompt_ID_21">
+					<String name="readableru" value="Следующий уровень доступа откроется через 4 боя" />
+				</value>
+				<value name="VO_Prompt_ID_22">
+					<String name="readableru" value="Следующий уровень доступа откроется через 5 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_23">
+					<String name="readableru" value="Следующий уровень доступа откроется через 6 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_24">
+					<String name="readableru" value="Следующий уровень доступа откроется через 7 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_25">
+					<String name="readableru" value="Следующий уровень доступа откроется через 8 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_26">
+					<String name="readableru" value="Следующий уровень доступа откроется через 9 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_27">
+					<String name="readableru" value="Следующий уровень доступа откроется через 10 боёв" />
+				</value>
+				<value name="VO_Prompt_ID_28">
+					<String name="readableru" value="" />
+				</value>
+				<value name="VO_Prompt_ID_29">
+					<String name="readableru" value="" />
+				</value>
+				<value name="VO_Prompt_ID_30">
+					<String name="readableru" value="" />
+				</value>
+				<value name="VO_Prompt_ID_31">
+					<String name="readableru" value="Следующий уровень доступа откроется через несколько боёв" />
+				</value>
+				<value name="VO_Prompt_ID_32">
+					<String name="readableru" value="Сражайтесь против искусственного интеллекта в кооперативных боях" />
+				</value>
+				<value name="VO_Prompt_ID_33">
+					<String name="readableru" value="Теперь вы можете исследовать, улучшать и покупать новые корабли" />
+				</value>
+				<value name="VO_Prompt_ID_34">
+					<String name="readableru" value="Выберите случайные бои и сразитесь против других игроков" />
+				</value>
+				<value name="VO_Prompt_ID_35">
+					<String name="readableru" value="Используйте сигнальные флаги и камуфляжи, чтобы улучшить характеристики корабля." />
+				</value>
+				<value name="VO_Prompt_ID_36">
+					<String name="readableru" value="Зарабатывайте контейнеры с ценным игровым имуществом." />
+				</value>
+				<value name="VO_Prompt_ID_37">
+					<String name="readableru" value="Используйте свободный опыт для исследования любого корабля или модуля." />
+				</value>
+				<value name="VO_Prompt_ID_38">
+					<String name="readableru" value="Обучайте командиров, чтобы улучшить характеристики кораблей и получить новые возможности в бою." />
+				</value>
+				<value name="VO_Prompt_ID_39">
+					<String name="readableru" value="Выполняйте боевые задачи и получайте ценные награды." />
+				</value>
+				<value name="VO_Prompt_ID_40">
+					<String name="readableru" value="Устанавливайте модернизации, чтобы улучшить характеристики корабля." />
+				</value>
+				<value name="VO_Prompt_ID_41">
+					<String name="readableru" value="Выполняйте миссии в кампаниях и получайте ценные награды." />
+				</value>
+				<value name="VO_Prompt_ID_42">
+					<String name="readableru" value="Обменивайте ресурсы на ценное имущество в адмиралтействе." />
+				</value>
+				<value name="VO_Prompt_ID_43">
+					<String name="readableru" value="Продавайте модули, снаряжение и другие виды игрового имущества." />
+				</value>
+				<value name="VO_Prompt_ID_44">
+					<String name="readableru" value="Достигните высшего ранга в боях против других игроков" />
+				</value>
+				<value name="VO_Prompt_ID_45">
+					<String name="readableru" value="Участвуйте вместе с другими игроками в боях с уникальными сценариями." />
+				</value>
+				<value name="VO_Prompt_ID_46">
+					<String name="readableru" value="Вступите в клан и сражайтесь в сплоченной команде." />
+				</value>
+				<value name="VO_Prompt_ID_47">
+					<String name="readableru" value="(не записано) устанавливайте сигнальные флаги на корабль, чтобы улучшить его характеристики" />
+				</value>
+				<value name="VO_Prompt_ID_48">
+					<String name="readableru" value="(не записано) установите камуфляж на корабль, чтобы улучшить его характеристики" />
+				</value>
+				<value name="VO_Prompt_ID_49">
+					<String name="readableru" value="Следующий уровень доступа откроется через 1 бой" />
+				</value>
+				<value name="VO_Prompt_ID_50">
+					<String name="readableru" value="Следующий уровень доступа откроется через 2 боя" />
+				</value>
+				<value name="VO_Prompt_ID_51">
+					<String name="readableru" value="(не записано) установите на корабль экономические бонусы, чтобы  получить больше кредитов и опыта за бой" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Quick_Commands">
+			<String name="readableru" value="Быстрые команды" />
+			<references>
+				<event name="Play_VO_Quick_Commands" />
+				<event name="Play_VO_Quick_Commands_Receive" />
+			</references>
+			<values>
+				<value name="CMD_QUICK_AYE_AYE">
+					<String name="readableru" value="Есть!" />
+					<String name="readableen" value="Aye_aye" />
+				</value>
+				<value name="CMD_QUICK_BACK">
+					<String name="readableru" value="Назад" />
+					<String name="readableen" value="Back" />
+				</value>
+				<value name="CMD_QUICK_BACK_ALLY_SHIP">
+					<String name="readableru" value="Назад (союзному кораблю)" />
+					<String name="readableen" value="Back_ship" />
+				</value>
+				<value name="CMD_QUICK_CARAMBA">
+					<String name="readableru" value="$%&amp;@!!!" />
+					<String name="readableen" value="Caramba" />
+				</value>
+				<value name="CMD_QUICK_GOOD_GAME">
+					<String name="readableru" value="Отличная игра!" />
+					<String name="readableen" value="Good_game" />
+				</value>
+				<value name="CMD_QUICK_GOOD_GAME_ALLY_SHIP">
+					<String name="readableru" value="Отличная игра (союзнику)" />
+					<String name="readableen" value="Good_game_ship" />
+				</value>
+				<value name="CMD_QUICK_GOOD_LUCK">
+					<String name="readableru" value="Удачи!" />
+					<String name="readableen" value="Good_luck" />
+				</value>
+				<value name="CMD_QUICK_HORN" />
+				<value name="CMD_QUICK_HOW_ITS_DONE">
+					<String name="readableru" value="Вот как это делается!" />
+					<String name="readableen" value="How_its_done (consoles)" />
+				</value>
+				<value name="CMD_QUICK_NEED_AIR_DEFENCE">
+					<String name="readableru" value="Нужна поддержка пво" />
+					<String name="readableen" value="Need_aa" />
+				</value>
+				<value name="CMD_QUICK_NEED_SMOKE">
+					<String name="readableru" value="Нужны дымы" />
+					<String name="readableen" value="Need_smoke" />
+				</value>
+				<value name="CMD_QUICK_NEED_SUPPORT">
+					<String name="readableru" value="Нужна поддержка" />
+					<String name="readableen" value="Need_support" />
+				</value>
+				<value name="CMD_QUICK_NEED_SUPPORT_ALLY_PLANE">
+					<String name="readableru" value="Нужна поддержка союзной авиации" />
+					<String name="readableen" value="Need_support_plane" />
+				</value>
+				<value name="CMD_QUICK_NEED_SUPPORT_ALLY_SHIP">
+					<String name="readableru" value="Нужна поддержка (союзному кораблю)" />
+					<String name="readableen" value="Need support ship" />
+				</value>
+				<value name="CMD_QUICK_NEED_VISION">
+					<String name="readableru" value="Нужна разведка" />
+					<String name="readableen" value="Need_scouting" />
+				</value>
+				<value name="CMD_QUICK_NO_WAY">
+					<String name="readableru" value="Отказано!" />
+					<String name="readableen" value="No_way" />
+				</value>
+				<value name="CMD_QUICK_READY">
+					<String name="readableru" value="Готов!" />
+					<String name="readableen" value="Ready (consoles)" />
+				</value>
+				<value name="CMD_QUICK_RLS" />
+				<value name="CMD_QUICK_SELF_DETECTED">
+					<String name="readableru" value="Меня обнаружили!" />
+					<String name="readableen" value="Self_detected (consoles)" />
+				</value>
+				<value name="CMD_QUICK_SONAR" />
+				<value name="CMD_QUICK_SORRY" />
+				<value name="CMD_QUICK_SOS">
+					<String name="readableru" value="Sos" />
+					<String name="readableen" value="Sos" />
+				</value>
+				<value name="CMD_QUICK_SUBMARINE_LOCATOR" />
+				<value name="CMD_QUICK_TACTIC" />
+				<value name="CMD_QUICK_TACTIC_ALLY_BASE">
+					<String name="readableru" value="Защитить базу" />
+					<String name="readableen" value="Ally_base" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ALLY_BUILDING">
+					<String name="readableru" value="Защитить наземные объекты" />
+					<String name="readableen" value="Ally_building" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ALLY_PLANE">
+					<String name="readableru" value="Защищайте самолёты союзника" />
+					<String name="readableen" value="Ally_planes" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ALLY_POINT">
+					<String name="readableru" value="Защитит указанную точку" />
+					<String name="readableen" value="Ally_point" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ALLY_SCENARIO_OBJECT" />
+				<value name="CMD_QUICK_TACTIC_ALLY_SHIP">
+					<String name="readableru" value="Защитить корабль" />
+					<String name="readableen" value="Ally_ship" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ENEMY_BASE">
+					<String name="readableru" value="Захватить базу" />
+					<String name="readableen" value="Enemy_base" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ENEMY_BUILDING">
+					<String name="readableru" value="Уничтожить наземные объекты" />
+					<String name="readableen" value="Enemy_building" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ENEMY_PLANE">
+					<String name="readableru" value="Уничтожить вражескую авиацию" />
+					<String name="readableen" value="Enemy_planes" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ENEMY_POINT">
+					<String name="readableru" value="Захватить точку" />
+					<String name="readableen" value="Enemy_point" />
+				</value>
+				<value name="CMD_QUICK_TACTIC_ENEMY_SHIP">
+					<String name="readableru" value="Уничтожить корабль!" />
+					<String name="readableen" value="Enemy_ship" />
+				</value>
+				<value name="CMD_QUICK_THANK_YOU">
+					<String name="readableru" value="Спасибо!" />
+					<String name="readableen" value="Thank_you" />
+				</value>
+				<value name="CMD_QUICK_THANK_YOU_ALLY_SHIP">
+					<String name="readableru" value="Спасибо! (союзному кораблю)" />
+					<String name="readableen" value="Thank_you_ship" />
+				</value>
+				<value name="CMD_QUICK_WELL_PLAYED">
+					<String name="readableru" value="Красава!" />
+					<String name="readableen" value="Well_played (consoles)" />
+				</value>
+				<value name="Default">
+					<String name="readableru" value="Не указано" />
+					<String name="readableen" value="No use" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Spotting">
+			<String name="readableru" value="Обнаружение кораблей" />
+			<String name="readableen" value="Detection_enemy" />
+			<references>
+				<event name="Play_VO_Detection_Enemy" />
+			</references>
+			<values>
+				<value name="VO_Spotting_AirCarrier">
+					<String name="readableru" value="Обнаружен вражеский авианосец!" />
+					<String name="readableen" value="Aircarrier" />
+				</value>
+				<value name="VO_Spotting_Battleship">
+					<String name="readableru" value="Обнаружен вражеский линкор!" />
+					<String name="readableen" value="Battleship" />
+				</value>
+				<value name="VO_Spotting_Cruiser">
+					<String name="readableru" value="Обнаружен вражеский крейсер!" />
+					<String name="readableen" value="Cruiser" />
+				</value>
+				<value name="VO_Spotting_Destroyer">
+					<String name="readableru" value="Обнаружен вражеский эсминец!" />
+					<String name="readableen" value="Destroyer" />
+				</value>
+				<value name="VO_Spotting_Multi">
+					<String name="readableru" value="Обнаружены силы противника!" />
+					<String name="readableen" value="Any_ship" />
+				</value>
+				<value name="VO_Spotting_Submarine">
+					<String name="readableru" value="Обнаружена вражеская подводная лодка" />
+					<String name="readableen" value="Sub" />
+				</value>
+			</values>
+		</state>
+		<state name="VO_Torpedo_Location">
+			<String name="readableru" value="Расположение торпед" />
+			<String name="readableen" value="Torpedo" />
+			<references>
+				<event name="Play_VO_Ship_Alarms_Torpedo_Danger" />
+			</references>
+			<values>
+				<value name="Torpedo_Ahead">
+					<String name="readableru" value="Прямо по курсу" />
+					<String name="readableen" value="Ahead" />
+				</value>
+				<value name="Torpedo_Back">
+					<String name="readableru" value="За кормой" />
+					<String name="readableen" value="Back" />
+				</value>
+				<value name="Torpedo_Left">
+					<String name="readableru" value="Слева по борту" />
+					<String name="readableen" value="Left" />
+				</value>
+				<value name="Torpedo_Right">
+					<String name="readableru" value="Справа по борту" />
+					<String name="readableen" value="Right" />
+				</value>
+			</values>
+		</state>
+	</states>
+</mod.xml>
+
