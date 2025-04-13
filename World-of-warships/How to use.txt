@@ -1,14 +1,12 @@
-打开你的world of war ships游戏目录
-国服为World_of_Warships_CN360
-直营服为World of Warships
+Open your 'world of war ships' game directory
 
-随后双击打开，在里面找到bin文件夹，双击打开
-找到名字最大的文件夹，双击打开，后找到res_mods文件夹，双击打开
+Then double-click to open it, find the 'bin' folder inside, double-click to open it
+Find the folder with the largest name, double-click to open it, then find the 'reshmods' folder, double-click to open it
 
-打开banks文件夹，打开mods文件夹，将下载下来的语音包放到mods文件夹里
-(以SSSS-宝多六花-修订版为例，直接将这个文件夹放里面就可以)
+Open the 'banks' folder, open the' mods' folder, and place the downloaded voice package in the 'mods' folder
+(Taking 'SSSS - Baoduo Liuhua - Revised Edition' as an example, simply put this folder inside)
 
-如果你的res_mods文件夹里没有banks文件夹，那你直接把下载下来的banks文件夹放到res_mods文件夹里就可以了
+If there is no 'banks' folder in your' reshmods' folder, you can simply put the downloaded 'banks' folder into the' reshmods' folder
 
-{版本更新如果转移语音包}
-直接将res_mods文件夹里的banks文件夹放到新的游戏文件夹的res_mods文件夹里就可以了
+{Version update if transferring voice package}
+Just put the 'banks' folder in the' reshmods' folder directly into the 'reshmods' folder in the new game folder
