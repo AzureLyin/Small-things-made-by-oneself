@@ -6,7 +6,7 @@ Find the folder with the largest name, double-click to open it, then find the 'r
 Open the 'banks' folder, open the' mods' folder, and place the downloaded voice package in the 'mods' folder
 (Taking 'SSSS - Baoduo Liuhua - Revised Edition' as an example, simply put this folder inside)
 
-If there is no 'banks' folder in your' reshmods' folder, you can simply put the downloaded 'banks' folder into the' reshmods' folder
+If there is no 'banks' folder in your' reshmods' folder, you can simply place the downloaded 'banks' folder in the' reshmods' folder (and delete all characters after the banks)
 
 {Version update if transferring voice package}
 Just put the 'banks' folder in the' reshmods' folder directly into the 'reshmods' folder in the new game folder
